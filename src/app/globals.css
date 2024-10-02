@@ -24,4 +24,15 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+
+  .layout {
+    width: 390px;
+    margin-left: auto;
+    margin-right: auto;
+
+   @media screen and (min-width: 390px) {
+    width: 100%;
+    max-width: 1440px;
+   }
+  }
 }

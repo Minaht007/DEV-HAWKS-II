@@ -8,10 +8,22 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+      colors: {        
+        "textContacts": '#e2e8f0',
+        "borderColor": '#d97706'        
       },
+      backgroundColor: {
+        "baseColor": "#2F7A3A",
+        "btmContacts": '#d97706',
+        "swiperCardBg": '#bae6fd'        
+      },
+
+      screens: {
+        sm: "390px",
+        md: "768px",
+        desk: "1200px",        
+      }, 
+
     },
   },
   plugins: [],
