@@ -14,7 +14,7 @@ const AboutUs = () => {
         <p className="w-[510px] text-5xl font-bold">
           Driven Digital Resolution Through Experienced Team
         </p>
-        <p className="w-[510px] text-xl">
+        <p className="w-[710px] text-xl" style={{textAlign: "justify"}}>
           Empower your digital journey with our seasoned team, dedicated to
           delivering innovative solutions. From concept to execution, we're
           committed to driving impactful resolutions for your business's

@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Logo from "../../public/img/logo/dev_hawks_done-03.png";
 import Logo2 from "../../public/img/logo/dev_hawks_done-04.png";
-// import Icons from "../../public/img/icons/symbol-defs.svg"
+import Link from "next/link";
 
 const linkStyle = "text-3xl text-textContacts"
 
@@ -14,10 +14,7 @@ const Header = () => {
         width={140}
         height={60}
         className="w-80 h-54 hidden md:block"
-      />
-      {/* <svg className="w-20 h-20" style={{fill:"#e2e8f0"}}>
-        <use href="/img/icons/symbol-defs.svg/#icon-devHawks3" style={{fill:"#e2e8f0"}} className="fill-[#e2e8f0]" />
-      </svg> */}
+      />     
        <Image
         src={Logo}
         alt="logo"
@@ -28,9 +25,10 @@ const Header = () => {
 
       <p className={linkStyle} >Home</p>
       <p className={linkStyle}>About Us</p>
-      <p className={linkStyle}>Portfolio</p>
+      <Link className={linkStyle} href="#services">Services</Link>
+      <p className={linkStyle}>Price</p>
 
-      <button className="border-2 border-borderColor rounded-[12px] text-secondaryTextColor bg-btmContacts px-10 py-3">
+      <button className="border-2 border-borderColor rounded-[12px] text-2xl text-secondaryTextColor bg-btmContacts px-10 py-3">
         Contacts
       </button>
     </div>
