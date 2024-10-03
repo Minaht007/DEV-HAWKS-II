@@ -1,10 +1,13 @@
 import Image from "next/image";
 import Logo from "../../public/img/logo/dev_hawks_done-03.png";
 import Logo2 from "../../public/img/logo/dev_hawks_done-04.png";
+// import Icons from "../../public/img/icons/symbol-defs.svg"
+
+const linkStyle = "text-3xl text-textContacts"
 
 const Header = () => {
   return (
-    <div className="flex flex-row justify-between items-center">
+    <div className="flex flex-row justify-between items-center bg-bgColor px-10">
       <Image
         src={Logo2}
         alt="logo"
@@ -12,6 +15,9 @@ const Header = () => {
         height={60}
         className="w-80 h-54 hidden md:block"
       />
+      {/* <svg className="w-20 h-20" style={{fill:"#e2e8f0"}}>
+        <use href="/img/icons/symbol-defs.svg/#icon-devHawks3" style={{fill:"#e2e8f0"}} className="fill-[#e2e8f0]" />
+      </svg> */}
        <Image
         src={Logo}
         alt="logo"
@@ -20,11 +26,11 @@ const Header = () => {
         className="w-20 h-20 md:hidden"
       />
 
-      <p>Home</p>
-      <p>About Us</p>
-      <p>Portfolio</p>
+      <p className={linkStyle} >Home</p>
+      <p className={linkStyle}>About Us</p>
+      <p className={linkStyle}>Portfolio</p>
 
-      <button className="border-2 border-borderColor rounded-[12px] text-textContacts bg-btmContacts px-10 py-3">
+      <button className="border-2 border-borderColor rounded-[12px] text-secondaryTextColor bg-btmContacts px-10 py-3">
         Contacts
       </button>
     </div>

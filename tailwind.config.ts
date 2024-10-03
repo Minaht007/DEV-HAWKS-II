@@ -9,13 +9,19 @@ const config: Config = {
   theme: {
     extend: {
       colors: {        
-        "textContacts": '#e2e8f0',
+        "textContacts": '#0c4a6e',
+        "secondaryTextColor": '#e2e8f0',
         "borderColor": '#d97706'        
       },
       backgroundColor: {
-        "baseColor": "#2F7A3A",
+        "numberBG": "#0c4a6e",        
         "btmContacts": '#d97706',
-        "swiperCardBg": '#bae6fd'        
+        "bgColor": '#bae6fd',
+
+      },
+
+      backgroundImage: {
+        "hero-BG": "url('/img/hero/bgImage.png')",
       },
 
       screens: {
