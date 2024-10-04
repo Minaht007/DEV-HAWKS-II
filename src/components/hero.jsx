@@ -1,12 +1,17 @@
 import Image from "next/image";
 import heroImage from "../../public/img/hero/heroImg.png";
 import underLine from "../../public/img/hero/underLine.png";
+import checkOne from "../../public/img/icons/checkOne.png"
 
 const Hero = () => {
   return (
     <div className="relative w-screen h-full bg-bgColor layout">
       <div className="flex flex-row justify-between items-center py-20 ">
         <div className="ml-16">
+          <div className="flex flex-row items-center mb-20">
+            <Image src={checkOne} alt="check" width={12} height={12} className="w-6 h-6" />
+            <p className="text-textContacts font-bold text-xl pl-3">Make your business online </p>
+          </div>
           <h1 className="text-5xl text-textContacts font-ball">
             Grow you Business <br /> with DEV HAWKS
           </h1>

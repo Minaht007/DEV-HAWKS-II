@@ -17,6 +17,7 @@ const config: Config = {
         "numberBG": "#0c4a6e",        
         "btmContacts": '#d97706',
         "bgColor": '#bae6fd',
+        "secondaryBG": "#e2e8f0"
 
       },
 
