@@ -16,8 +16,8 @@ const AboutUs = () => {
         </p>
         <p className="w-[710px] text-xl" style={{textAlign: "justify"}}>
           Empower your digital journey with our seasoned team, dedicated to
-          delivering innovative solutions. From concept to execution, we're
-          committed to driving impactful resolutions for your business's
+          delivering innovative solutions. From concept to execution, we&apos;re
+          committed to driving impactful resolutions for your business&apos;s
           success.
         </p>
       </div>
