@@ -1,3 +1,4 @@
+"use client"
 import Image from "next/image"
 import Img from "../../public/img/chooseUs/chooseUs.png"
 
@@ -9,21 +10,9 @@ const cardBtm = "flex w-[200px] px-10 py-3 bg-btmContacts text-secondaryTextColo
 
 const Services = () => {
 
-    const scrollToSection = (id) => {
-        const target = document.getElementById(id);
-        const offset = 80; 
-        const elementPosition = target.getBoundingClientRect().top + window.scrollY;
-        const offsetPosition = elementPosition - offset;
-    
-        window.scrollTo({
-          top: offsetPosition,
-          behavior: "smooth",
-        });
-      };
-
 
   return (
-    <div className="bg-bgColor py-16 px-10 rounded-l-2xl" id="#services">
+    <div className="bg-bgColor py-16 px-10 rounded-l-2xl" id="services">
       <h1 className="text-5xl font-bold text-textContacts">Our Services</h1>
 
       <div className="flex flex-row justify-between mx-auto mt-20">

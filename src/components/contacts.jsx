@@ -10,7 +10,7 @@ const textAreaStyle = "border-2 border-textContacts rounded-xl pl-2 pt-1"
 const Contacts = () => {
 
     return (
-        <div className="flex justify-between py-20 bg-bgColor pl-10 rounded-l-xl">
+        <section className="flex justify-between py-20 bg-bgColor pl-10 rounded-l-xl" id="contact">
             <div>
                 <h1 className="text-5xl text-textContacts font-bold mb-10">Contacts</h1>
                 <div className="flex mx-5 my-5">
@@ -40,15 +40,18 @@ const Contacts = () => {
                 <div className="w-[580px] ml-5">
                     <label htmlFor="message" className="flex flex-col">Message
                         <textarea name="" id="message" cols="60" rows="10" className={textAreaStyle}></textarea>
-                    </label>
-                    
+                    </label>                    
                 </div>
+
+                <div className="flex mt-10 justify-center">
+                   <button className="w-[280px] bg-btmContacts text-center text-2xl text-secondaryTextColor font-bold rounded-2xl py-4 px-10">Send message</button> 
+                </div> 
             </div>
 
             <div>
                 <Image src={map} alt="map" width={800} height={940} className="rounded-md" />
             </div>
-        </div>
+        </section>
     )
 
 }
