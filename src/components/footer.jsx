@@ -44,7 +44,7 @@ const Footer = () => {
         <label className="flex flex-col relative">
           <input
             type="email"
-            className={`w-[500px] h-10 border-2 border-textContacts pl-4 py-2 rounded-lg focus:outline-none transition-all duration-200 ${
+            className={`w-[500px] h-10 border-2 border-textContacts pl-4 py-4  rounded-lg focus:outline-none transition-all duration-200 ${
               isFocused ? "pt-6" : ""
             }`}
             inputMode="latin"
@@ -54,14 +54,14 @@ const Footer = () => {
             onBlur={() => setIsFocused(false)}
           />
           <p
-            className={`absolute left-4 top-2 transition-all duration-200 text-md text-textContacts ${
+            className={`absolute left-4 top-2 transition-all duration-400 text-md text-textContacts ${
               isFocused ? "transform -translate-y-8 scale-100" : ""
             }`}
           >
             Enter your email address
           </p>
         </label>
-        <button className="text-lg text-secondaryTextColor px-16 py-3 font-bold bg-numberBG rounded-lg ml-4">
+        <button type="submit" className="text-lg text-secondaryTextColor px-16 py-3 font-bold bg-numberBG rounded-lg ml-4">
           Send Email
         </button>
       </div>
