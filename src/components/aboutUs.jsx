@@ -7,7 +7,7 @@ const cardText = "text-2xl text-secondaryTextColor py-4"
 
 const AboutUs = () => {
   return (
-    <div className="mt-20 w-full px-10" id={"#aboutUs"}>
+    <div className="mt-20 w-full px-10" id="aboutUs">
       <h1 className="text-5xl font-bold text-textContacts">About Us</h1>
 
       <div className="flex flex-row justify-between mx-auto mt-20">

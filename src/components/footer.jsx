@@ -7,6 +7,7 @@ import { useState } from "react";
 
 const Footer = () => {
   const [isFocused, setIsFocused] = useState(false);
+  const [input, setInput] = useState("")
   return (
     <div className="flex my-10 justify-around items-center">
       <div className="flex flex-col w-1/3">
@@ -44,24 +45,25 @@ const Footer = () => {
         <label className="flex flex-col relative">
           <input
             type="email"
-            className={`w-[500px] h-10 border-2 border-textContacts pl-4 py-4  rounded-lg focus:outline-none transition-all duration-200 ${
-              isFocused ? "pt-6" : ""
+            className={`w-[500px] h-full border-2 border-textContacts pl-4 py-4  rounded-lg focus:outline-none transition-all duration-400 ${
+              isFocused ? "" : ""
             }`}
             inputMode="latin"
             minLength={6}
             placeholder=" "
             onFocus={() => setIsFocused(true)}
             onBlur={() => setIsFocused(false)}
+            onChange={(e) => setInput(e.target.value)}
           />
           <p
-            className={`absolute left-4 top-2 transition-all duration-400 text-md text-textContacts ${
-              isFocused ? "transform -translate-y-8 scale-100" : ""
+            className={`absolute left-4 top-[25%] transition-all duration-400 text-md text-textContacts ${
+              isFocused || input.length > 0 ? "transform -translate-y-10 scale-100" : ""
             }`}
           >
             Enter your email address
           </p>
         </label>
-        <button type="submit" className="text-lg text-secondaryTextColor px-16 py-3 font-bold bg-numberBG rounded-lg ml-4">
+        <button type="submit" className="text-lg text-secondaryTextColor px-16 py-3 font-bold bg-numberBG rounded-lg ml-4 pointer">
           Send Email
         </button>
       </div>
