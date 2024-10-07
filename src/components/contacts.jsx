@@ -3,7 +3,7 @@ import Image from "next/image"
 import map from "../../public/img/contacts/centralPartPng.png"
 
 
-const inputStyle = "w-[280px] h-10 border-2 border-textContacts rounded-xl pl-2"
+const inputStyle = "w-[280px] h-10 border-2 border-textContacts rounded-xl pl-2 text-textContacts placeholder-textContacts"
 const inputStyleSubject = "w-[580px] h-10 border-2 border-textContacts rounded-xl pl-2"
 const textAreaStyle = "border-2 border-textContacts rounded-xl pl-2 pt-1"
 
