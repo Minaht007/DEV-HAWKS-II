@@ -1,6 +1,7 @@
 "use client"
 import Image from "next/image"
 import Img from "../../public/img/chooseUs/chooseUs.png"
+import Link from "next/link"
 
 const cardStyle = "flex flex-col bg-textContacts rounded-xl w-[370px] my-20"
 const useStyle = "w-10 h-10 fill-secondaryTextColor py-10"
@@ -36,7 +37,7 @@ const Services = () => {
           </svg>
           <p className={cardTitle} >Web Development</p>
           <p className={cartText}>Web Development service</p>
-          <button className={cardBtm}>Learn More</button>
+          <Link href="webDevelopmentService" className={cardBtm}>Learn More</Link>
         </div>
 
 
