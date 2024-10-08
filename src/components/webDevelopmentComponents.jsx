@@ -34,8 +34,8 @@ const Article = () => {
         <div className="px-10">
           <p className={text} style={{ textAlign: "justify" }}>
             Having an online presence, either on a website or web app, is
-            important for any business in today's digital climate. Most business
-            owners would say it's a necessity.
+            important for any business in today&apos;s digital climate. Most business
+            owners would say it&apos;s a necessity.
           </p>
           <p className={text} style={{ textAlign: "justify" }}>
             According to many studies, it takes less than a second for viewers
@@ -95,7 +95,7 @@ const Article = () => {
 
       <p className={text} style={{ textAlign: "justify" }}>
         Now that we have figured out what a web application is, how it works and
-        how it differs from a website, let's look at their types from a
+        how it differs from a website, let&apos;s look at their types from a
         technical classification point of view:
       </p>
       <div className="flex justify-center my-10">
@@ -141,7 +141,7 @@ const Article = () => {
             <p className={text} style={{ textAlign: "justify" }}>
               <span className="text-2xl underline pr-2">Data caching.</span>
               The cache works in the same way - it is enough to contact the
-              server once and it will save all the user's data. Now the client
+              server once and it will save all the user&apos;s data. Now the client
               will be able to work in the application even in offline mode.
             </p>
           </li>
