@@ -29,7 +29,8 @@ const Header = () => {
 
   return (
     <div className="flex flex-row justify-between items-center bg-bgColor py-5 px-10" id="home" style={{ position: "sticky", top: "0", zIndex: "10" }}>
-      <Image
+     <Link href="mainPage#home">
+     <Image
         src={Logo2}
         alt="logo"
         width={140}
@@ -43,8 +44,10 @@ const Header = () => {
         height={60}
         className="w-20 h-20 md:hidden"
       />
+     </Link>
+     
 
-      <Link className={linkStyle} href="#home" >Home</Link>
+      <Link className={linkStyle} href="mainPage#home" >Home</Link>
       <Link className={linkStyle} href="#aboutUs">
         About Us
       </Link>
