@@ -14,6 +14,7 @@ const Header = () => {
   const [flagMenuOpen, setFlagMenuOpen] = useState(false)
 
   const {t, i18n} = useTranslation()
+  console.log(t)
 
   const handleFlagClick = (languageCode) => {
     i18n.changeLanguage(languageCode);
