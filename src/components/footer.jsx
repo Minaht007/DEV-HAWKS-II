@@ -9,7 +9,7 @@ const Footer = () => {
   const [isFocused, setIsFocused] = useState(false);
   const [input, setInput] = useState("")
   return (
-    <div className="flex my-10 justify-around items-center">
+    <div className="flex py-10 justify-around items-center bg-secondaryBG ">
       <div className="flex flex-col w-1/3">
         <div>
           <Image

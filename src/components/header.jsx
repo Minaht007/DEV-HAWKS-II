@@ -49,10 +49,10 @@ const Header = () => {
      
 
       <Link className={linkStyle} href="mainPage#home" >Home</Link>
-      <Link className={linkStyle} href="#aboutUs">
+      <Link className={linkStyle} href="mainPage#aboutUs">
         About Us
       </Link>
-      <Link className={linkStyle} href="#services">
+      <Link className={linkStyle} href="mainPage#services">
         Services
       </Link>
       <p className={linkStyle}>Price</p>

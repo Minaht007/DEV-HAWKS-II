@@ -47,7 +47,7 @@ const Services = () => {
           </svg>
           <p className={cardTitle}>Programming</p>
           <p className={cartText}>Web Programming  Service</p>
-          <button className={cardBtm}>Learn More</button>
+          <Link href="wps" className={cardBtm}>Learn More</Link>
         </div>
         
         

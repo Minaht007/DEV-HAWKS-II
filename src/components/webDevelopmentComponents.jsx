@@ -4,9 +4,9 @@ import webSiteImg from "../../public/img/wds/webSite.png";
 import webAppImg from "../../public/img/wds/webApplication.jpg";
 import Link from "next/link";
 
-const title = "text-5xl font-bold py-10 px-10";
-const underTitle = "text-3xl font-bold py-3 px-10";
-const text = "text-2xl py-3 px-10";
+const title = "text-5xl font-bold py-10 px-10 text-textContacts";
+const underTitle = "text-3xl font-bold py-3 px-10 text-textContacts";
+const text = "text-2xl py-3 px-10 text-textContacts";
 const numberStyle =
   "text-3xl font-bold text-center text-secondaryTextColor bg-numberBG rounded-full border-none w-12 h-12 flex items-center justify-center";
 
@@ -22,7 +22,7 @@ const Article = () => {
         </p>
       </div>
 
-      <div className="flex justify-between items-center mt-16 px-10">
+      <div className="flex justify-between items-center mt-16 ">
         <div>
           <Image
             src={goodClientImg}
@@ -31,7 +31,7 @@ const Article = () => {
             height={400}
           />
         </div>
-        <div className="px-10">
+        <div className="">
           <p className={text} style={{ textAlign: "justify" }}>
             Having an online presence, either on a website or web app, is
             important for any business in today&apos;s digital climate. Most business
