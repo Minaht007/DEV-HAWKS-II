@@ -2,6 +2,7 @@ import Image from "next/image";
 import heroImage from "../../public/img/hero/heroImg.png";
 import underLine from "../../public/img/hero/underLine.png";
 import checkOne from "../../public/img/icons/checkOne.png"
+import Link from "next/link";
 
 const Hero = () => {
   return (
@@ -22,9 +23,9 @@ const Hero = () => {
             height={10}
             className="pb-20"
           />
-          <button className="border-2 border-borderColor rounded-[12px] text-secondaryTextColor text-2xl bg-btmContacts px-10 py-3">
+          <Link href="getStarted" className="border-2 border-borderColor rounded-[12px] text-secondaryTextColor text-2xl bg-btmContacts px-10 py-3">
             Get Started
-          </button>
+          </Link>
         </div>
         <Image
           src={heroImage}

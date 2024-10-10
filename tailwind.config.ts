@@ -11,8 +11,7 @@ const config: Config = {
       colors: {        
         "textContacts": '#0c4a6e',
         "secondaryTextColor": '#e2e8f0',
-        "btmTextColor": "#d97706"
-        // "borderColor": '#d97706'        
+        "btmTextColor": "#d97706",               
       },
       backgroundColor: {
         "numberBG": "#0c4a6e",        

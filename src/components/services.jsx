@@ -57,7 +57,7 @@ const Services = () => {
           </svg>
           <p className={cardTitle}>Consultation</p>
           <p className={cartText}>Consultation Service</p>
-          <button className={cardBtm}>Learn More</button>
+          <Link href="consultationService" className={cardBtm}>Learn More</Link>
         </div>
       </div>
 
