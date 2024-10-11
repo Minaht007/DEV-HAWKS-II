@@ -1,6 +1,6 @@
 import analitycsImg from "../../public/img/wps/analytics.jpg"
 import designImg from "../../public/img/wps/design2.jpg"
-import arrowImg from "../../public/img/wps/arrowDown.png"
+// import arrowImg from "../../public/img/wps/arrowDown.png"
 import dev2Img from "../../public/img/wps/dev2.jpg"
 import testingImg from "../../public/img/wps/testing-1.jpg"
 import supportImg from "../../public/img/wps/support.jpg"
@@ -74,7 +74,7 @@ const WpsComponents = () => {
               We select a color scheme and develop a corporate style for the web
               application. At this stage, we form the appearance of the product
               elements taking into account all the requirements and features of
-              your users' perception.
+              your users&apos; perception.
             </p>
           </div>
 
@@ -111,7 +111,7 @@ const WpsComponents = () => {
               className={`${stepText} text-end`}
               style={{ textAlign: "justify" }}
             >
-              The main part of the development team's work, where we write code
+              The main part of the development team&apos;s work, where we write code
               and implement the necessary functions, is creating all the pages
               of your application in compliance with the logic and main goal of
               the project. At each stage, the application is tested - it is
