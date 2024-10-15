@@ -1,4 +1,4 @@
-import Articles from "../../components/webDevelopmentComponents"
+import Articles from "../../../components/webDevelopmentComponents"
 
 const WDP = () => {
     return (

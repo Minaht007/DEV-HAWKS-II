@@ -1,0 +1,9 @@
+{
+    "Header": {
+        "home": "Home",
+        "aboutUs": "About Us",
+        "services": "Services",
+        "price": "Price",
+        "contact": "Contacts"
+    }
+}

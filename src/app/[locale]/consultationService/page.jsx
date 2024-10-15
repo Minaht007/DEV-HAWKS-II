@@ -1,4 +1,4 @@
-import CsServiceComponent from "../../components/consServComponent"
+import CsServiceComponent from "../../../components/consServComponent"
 
 const CSPage = () => {
     return (

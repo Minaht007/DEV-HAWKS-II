@@ -1,4 +1,4 @@
-import GetStarted from "../../components/getStartedComponents";
+import GetStarted from "../../../components/getStartedComponents";
 
 const GetStartedPage = () => {
   return <GetStarted />;

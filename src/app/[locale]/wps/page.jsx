@@ -1,4 +1,4 @@
-import WpsComponents from "../../components/wpsComponent"
+import WpsComponents from "../../../components/wpsComponent"
 
 const WPSPage =() => {
     return (

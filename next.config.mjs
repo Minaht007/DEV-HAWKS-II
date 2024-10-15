@@ -1,17 +1,8 @@
+import createNextIntlPlugin from 'next-intl/plugin';
+ 
+const withNextIntl = createNextIntlPlugin();
+ 
 /** @type {import('next').NextConfig} */
-const nextConfig = {
-    // turbo: {
-    //     resolveExtensions: [
-    //       '.mdx',
-    //       '.tsx',
-    //       '.ts',
-    //       '.jsx',
-    //       '.js',
-    //       '.mjs',
-    //       '.json',
-    //       '.svg',
-    //     ],
-    //   },
-};
-
-export default nextConfig;
+const nextConfig = {};
+ 
+export default withNextIntl(nextConfig);
