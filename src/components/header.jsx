@@ -3,13 +3,16 @@ import Image from "next/image";
 import Logo from "../../public/img/logo/dev_hawks_done-03.png";
 import Logo2 from "../../public/img/logo/dev_hawks_done-04.png";
 import Link from "next/link";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
+
+import LngSwitcher from "../utils/lng"
 
 const linkStyle = "text-3xl text-textContacts";
 
 const Header = () => {
 
   const t = useTranslations('Header')
+  const currentLocation = useLocale()
 
 
   return (
@@ -35,13 +38,13 @@ const Header = () => {
         />
       </Link>
 
-      <Link className={linkStyle} href="mainPage#home">
+      <Link className={linkStyle} href={`/${currentLocation}/mainPage#home`}>
         {t('home')}
       </Link>
-      <Link className={linkStyle} href="mainPage#aboutUs">
+      <Link className={linkStyle} href={`/${currentLocation}/mainPage#aboutUs`}>
       {t('aboutUs')}
       </Link>
-      <Link className={linkStyle} href="mainPage#services">
+      <Link className={linkStyle} href={`/${currentLocation}/mainPage#services`}>
       {t('services')}
       </Link>
       <p className={linkStyle}>{t('price')}</p>
@@ -52,6 +55,8 @@ const Header = () => {
       >
         {t('contact')}
       </Link>
+
+      <LngSwitcher />
 
       {/* <div>
         <div onClick={() => setFlagMenuOpen(!flagMenuOpen)}>
