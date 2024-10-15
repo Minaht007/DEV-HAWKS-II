@@ -5,5 +5,21 @@
         "services": "Services",
         "price": "Price",
         "contact": "Contacts"
+    },
+    "Hero": {
+        "title": "Make your business online",
+        "slogan1": "Grow you Business",
+        "slogan2": "with DEV HAWKS"
+    },
+    "ADV": {
+        "adv1": "Best Performance",
+        "adv2": "On time delivery",
+        "adv3": "100% Satisfaction",
+        "adv4": "Experienced "
+    },
+
+    "AboutUs": {
+        "sloganAboutUs": "Driven Digital Resolution Through Experienced Team",
+        "textAboutUs": "Empower your digital journey with our seasoned team, dedicated to delivering innovative solutions. From concept to execution, we're committed to driving impactful resolutions for your business's success."
     }
 }

@@ -1,3 +1,4 @@
+import { useTranslations } from "next-intl";
 
 
 const cardStyles = "flex flex-col w-60 h-60 border-none rounded-lg bg-textContacts justify-center items-center"
@@ -6,19 +7,21 @@ const cardText = "text-2xl text-secondaryTextColor py-4"
 
 
 const AboutUs = () => {
+
+  const t = useTranslations('Header')
+  const c = useTranslations('AboutUs')
+
+
   return (
     <div className="mt-20 w-full px-10" id="aboutUs">
-      <h1 className="text-5xl font-bold text-textContacts">About Us</h1>
+      <h1 className="text-5xl font-bold text-textContacts">{t('aboutUs')}</h1>
 
       <div className="flex flex-row justify-between mx-auto mt-20">
         <p className="w-[510px] text-5xl font-bold">
-          Driven Digital Resolution Through Experienced Team
+        {c('sloganAboutUs')}
         </p>
         <p className="w-[710px] text-xl" style={{textAlign: "justify"}}>
-          Empower your digital journey with our seasoned team, dedicated to
-          delivering innovative solutions. From concept to execution, we&apos;re
-          committed to driving impactful resolutions for your business&apos;s
-          success.
+        {c('textAboutUs')}
         </p>
       </div>
 

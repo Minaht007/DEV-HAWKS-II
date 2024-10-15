@@ -1,4 +1,10 @@
+import { useTranslations } from "next-intl";
+
+
 const Advantage = () => {
+
+  const t = useTranslations('ADV')
+
   return (
    <div className="flex justify-end">
      <div className="flex flex-row w-[80%] justify-around relative mt-[-4%] items-end py-10 border-none rounded-l-2xl bg-[#f8fafc] ">
@@ -9,7 +15,7 @@ const Advantage = () => {
             className="fill-[#0c4a6e]"
           />
         </svg>
-        <p className="text-xl font-bold px-2">Best Performance</p>
+        <p className="text-xl font-bold px-2">{t('adv1')}</p>
       </div>
       <div className="flex flex-row items-center">
         <svg className="w-10 h-10">
@@ -18,7 +24,7 @@ const Advantage = () => {
             className="fill-[#0c4a6e]"
           />
         </svg>
-        <p className="text-xl font-bold px-2">Best Performance</p>
+        <p className="text-xl font-bold px-2">{t('adv2')}</p>
       </div>
       <div className="flex flex-row items-center">
         <svg className="w-10 h-10">
@@ -27,7 +33,7 @@ const Advantage = () => {
             className="fill-[#0c4a6e]"
           />
         </svg>
-        <p className="text-xl font-bold px-2">Best Performance</p>
+        <p className="text-xl font-bold px-2">{t('adv3')}</p>
       </div>
       <div className="flex flex-row items-center">
         <svg className="w-10 h-10">
@@ -36,7 +42,7 @@ const Advantage = () => {
             className="fill-[#0c4a6e]"
           />
         </svg>
-        <p className="text-xl font-bold px-2">Best Performance</p>
+        <p className="text-xl font-bold px-2">{t('adv4')}</p>
       </div>
     </div>
    </div>

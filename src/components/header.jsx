@@ -39,18 +39,18 @@ const Header = () => {
         {t('home')}
       </Link>
       <Link className={linkStyle} href="mainPage#aboutUs">
-        About Us
+      {t('aboutUs')}
       </Link>
       <Link className={linkStyle} href="mainPage#services">
-        Services
+      {t('services')}
       </Link>
-      <p className={linkStyle}>Price</p>
+      <p className={linkStyle}>{t('price')}</p>
 
       <Link
         className="border-2 border-borderColor rounded-[12px] text-2xl text-secondaryTextColor bg-btmContacts px-10 py-3"
         href="/#contact"
       >
-        Contacts
+        {t('contact')}
       </Link>
 
       {/* <div>
