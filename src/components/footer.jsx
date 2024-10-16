@@ -3,9 +3,13 @@ import Image from "next/image";
 import Logo from "../../public/img/logo/dev_hawks_done-03.png";
 import Logo2 from "../../public/img/logo/dev_hawks_done-04.png";
 import { useState } from "react";
+import { useTranslations } from "next-intl";
 // import Link from "next/link";
 
 const Footer = () => {
+
+  const t = useTranslations('Footer')
+
   const [isFocused, setIsFocused] = useState(false);
   const [input, setInput] = useState("")
   return (
@@ -33,10 +37,7 @@ const Footer = () => {
             className="py-5 text-xl text-textContacts"
             style={{ textAlign: "justify" }}
           >
-            specializes in custom software development, programming, and
-            consulting services tailored for local and community-based clients.
-            Elevate your digital presence with our innovative solutions and
-            personalized approach.
+            {t('text')}
           </p>
         </div>
       </div>
@@ -60,11 +61,11 @@ const Footer = () => {
               isFocused || input.length > 0 ? "transform -translate-y-10 scale-100" : ""
             }`}
           >
-            Enter your email address
+            {t('footerPlaceholder')}
           </p>
         </label>
         <button type="submit" className="text-lg text-secondaryTextColor px-16 py-3 font-bold bg-numberBG rounded-lg ml-4 pointer">
-          Send Email
+        {t('footerBtm')}
         </button>
       </div>
     </div>

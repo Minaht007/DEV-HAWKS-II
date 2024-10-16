@@ -13,14 +13,14 @@ const AboutUs = () => {
 
 
   return (
-    <div className="mt-20 w-full px-10" id="aboutUs">
+    <div className="mt-16 w-full px-10" id="aboutUs">
       <h1 className="text-5xl font-bold text-textContacts">{t('aboutUs')}</h1>
 
-      <div className="flex flex-row justify-between mx-auto mt-20">
-        <p className="w-[510px] text-5xl font-bold">
+      <div className="flex flex-row justify-between items-center mx-auto mt-20">
+        <p className="w-[510px] text-5xl font-bold leading-relaxed">
         {c('sloganAboutUs')}
         </p>
-        <p className="w-[710px] text-xl" style={{textAlign: "justify"}}>
+        <p className="w-[710px] text-2xl leading-normal" style={{textAlign: "justify"}}>
         {c('textAboutUs')}
         </p>
       </div>

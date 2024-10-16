@@ -2,6 +2,7 @@
 import Image from "next/image"
 import Img from "../../public/img/chooseUs/chooseUs.png"
 import Link from "next/link"
+import { useTranslations } from "next-intl"
 
 const cardStyle = "flex flex-col bg-textContacts rounded-xl w-[370px] my-20"
 const useStyle = "w-10 h-10 fill-secondaryTextColor py-10"
@@ -11,20 +12,19 @@ const cardBtm = "flex w-[200px] px-10 py-3 bg-btmContacts text-secondaryTextColo
 
 const Services = () => {
 
+  const t = useTranslations('Services')
+
 
   return (
     <div className="bg-bgColor py-16 px-10 rounded-l-2xl" id="services">
-      <h1 className="text-5xl font-bold text-textContacts">Our Services</h1>
+      <h1 className="text-5xl font-bold text-textContacts">{t('title')}</h1>
 
-      <div className="flex flex-row justify-between mx-auto mt-20">
-        <p className="w-[510px] text-5xl font-bold">
-          We Offer Professional Services For Your Business
+      <div className="flex flex-row justify-between items-center mx-auto mt-20">
+        <p className="w-[510px] text-5xl font-bold leading-relaxed">
+        {t('underTitle')}
         </p>
-        <p className="w-[710px] text-xl" style={{textAlign: "justify"}}>
-          Unlock the full potential of your business with our comprehensive
-          suite of professional services. From strategic consulting to
-          cutting-edge solutions, we empower your growth and success with
-          tailored expertise and unwavering commitment to excellence.
+        <p className="w-[710px] text-2xl leading-normal " style={{textAlign: "justify"}}>
+        {t('underTitleSlogan')}
         </p>
       </div>
 
@@ -36,8 +36,8 @@ const Services = () => {
             <use href="/img/icons/symbol-defs.svg#icon-webEarth" className={useStyle} />
           </svg>
           <p className={cardTitle} >Web Development</p>
-          <p className={cartText}>Web Development service</p>
-          <Link href="webDevelopmentService" className={cardBtm}>Learn More</Link>
+          <p className={cartText}>{t('serviceCard1')}</p>
+          <Link href="webDevelopmentService" className={cardBtm}>{t('serviceCardBtm')}</Link>
         </div>
 
 
@@ -46,8 +46,8 @@ const Services = () => {
             <use href="/img/icons/symbol-defs.svg#icon-structure" className={useStyle} />
           </svg>
           <p className={cardTitle}>Programming</p>
-          <p className={cartText}>Web Programming  Service</p>
-          <Link href="wps" className={cardBtm}>Learn More</Link>
+          <p className={cartText}>{t('serviceCard2')}</p>
+          <Link href="wps" className={cardBtm}>{t('serviceCardBtm')}</Link>
         </div>
         
         
@@ -56,24 +56,24 @@ const Services = () => {
             <use href="/img/icons/symbol-defs.svg#icon-update" className={useStyle} />
           </svg>
           <p className={cardTitle}>Consultation</p>
-          <p className={cartText}>Consultation Service</p>
-          <Link href="consultationService" className={cardBtm}>Learn More</Link>
+          <p className={cartText}>{t('serviceCard3')}</p>
+          <Link href="consultationService" className={cardBtm}>{t('serviceCardBtm')}</Link>
         </div>
       </div>
 
       <div className="flex flex-row bg-bgColor my-5 pl-5 rounded-l-2xl ">
         <div >
-            <h2  className="text-5xl font-bold text-textContacts mt-5">Why Choose us</h2>
-            <p className="text-4xl font-bold py-10">We Have an Outstanding Digital Experience</p>
-            <p className="w-[800px] text-xl pb-10">Experience excellence in the digital realm with our exceptional services. From innovative design to seamless navigation, we craft immersive experiences that captivate audiences and drive meaningful engagement</p>
+            <h2  className="text-5xl font-bold text-textContacts mt-5">{t('serviceTitle2')}</h2>
+            <p className="text-4xl font-bold py-10">{t('serviceUnderTitle2')}</p>
+            <p className="w-[800px] text-xl pb-10">{t('serviceTextOne')}</p>
             
             <div className="flex items-start ">
                 <div className="flex justify-center items-center w-8 h-8 border-none rounded-full bg-numberBG">                  
                     <p className="text-2xl text-secondaryTextColor font-bold">1</p>
                 </div>
                 <div className="pl-4 w-[800px]">
-                    <p className="text-4xl font-bold pb-6">Best Performance</p>
-                    <p className="text-xl pb-10" >Unrivaled excellence in performance, setting the standard for exceptional quality and optimal results.</p>
+                    <p className="text-4xl font-bold pb-6">{t('servicePointOne')}</p>
+                    <p className="text-xl pb-10" >{t('serviceTextThree')}</p>
                 </div> 
             </div>
 
@@ -82,8 +82,8 @@ const Services = () => {
                     <p className="text-2xl text-secondaryTextColor font-bold">2</p>
                 </div>
                 <div className="pl-4 w-[800px]">
-                    <p className="text-4xl font-bold pb-6">Best Performance</p>
-                    <p className="text-xl pb-10" >Unrivaled excellence in performance, setting the standard for exceptional quality and optimal results.</p>
+                    <p className="text-4xl font-bold pb-6">{t('servicePointTwo')}</p>
+                    <p className="text-xl pb-10" >{t('serviceTextFour')}</p>
                 </div> 
             </div>
 
@@ -92,8 +92,8 @@ const Services = () => {
                     <p className="text-2xl text-secondaryTextColor font-bold">3</p>
                 </div>
                 <div className="pl-4 w-[800px]">
-                    <p className="text-4xl font-bold pb-6">Best Performance</p>
-                    <p className="text-xl" >Unrivaled excellence in performance, setting the standard for exceptional quality and optimal results.</p>
+                    <p className="text-4xl font-bold pb-6">{t('servicePointThree')}</p>
+                    <p className="text-xl" >{t('serviceTextFive')}</p>
                 </div> 
             </div>
         </div>

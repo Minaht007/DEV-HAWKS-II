@@ -21,5 +21,45 @@
     "AboutUs": {
         "sloganAboutUs": "Driven Digital Resolution Through Experienced Team",
         "textAboutUs": "Empower your digital journey with our seasoned team, dedicated to delivering innovative solutions. From concept to execution, we're committed to driving impactful resolutions for your business's success."
+    },
+
+    "Services": {
+        "title": "Our Services",
+        "underTitle": "We Offer Professional Services For Your Business",
+        "underTitleSlogan": "Unlock the full potential of your business with our comprehensive suite of professional services. From strategic consulting to cutting-edge solutions, we empower your growth and success with tailored expertise and unwavering commitment to excellence.",
+        "serviceCard1": "Web Development service",
+        "serviceCard2": "Web Programming  Service",
+        "serviceCard3": "Consultation Service",
+        "serviceCardBtm": "Learn More",
+        "serviceTitle2": "Why Choose us",
+        "serviceUnderTitle2": "We Have an Outstanding Digital Experience",
+        "serviceTextOne": "Experience excellence in the digital realm with our exceptional services. From innovative design to seamless navigation, we craft immersive experiences that captivate audiences and drive meaningful engagement",
+        "servicePointOne": "Best Performance",
+        "serviceTextThree": "Unrivaled excellence in performance, setting the standard for exceptional quality and optimal results.",
+        "servicePointTwo": "Dedicated Team Members",
+        "serviceTextFour": "Committed professionals driving success through expertise, collaboration, and unwavering dedication to achieving your goals",
+        "servicePointThree": "On Time delivery",
+        "serviceTextFive": "Reliable assistance whenever you need it, ensuring seamless operations and peace of mind for your business"
+    },
+
+    "Team": {
+        "title": "Our Team",
+        "underTitle": "Our Skilled Team of Experts",
+        "text": "Meet our proficient team of seasoned professionals, dedicated to delivering exceptional results through their expertise, innovation, and commitment to excellence in every project they undertake."
+    },
+
+    "ContactForm": {
+        "firstName": "name",
+        "lastName": "last name",        
+        "subject": "Subject*",
+        "message": "Message*",
+        "contactBtm": "Send message"
+    },
+
+    "Footer": {
+        "text": "specializes in custom software development, programming, and consulting services tailored for local and community-based clients. Elevate your digital presence with our innovative solutions and personalized approach.",
+        "footerPlaceholder": "Enter your email address",
+        "footerBtm": "Send message"
     }
+
 }
