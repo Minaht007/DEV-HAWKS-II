@@ -8,7 +8,7 @@ const cardStyle = "flex flex-col bg-textContacts rounded-xl w-[370px] my-20"
 const useStyle = "w-10 h-10 fill-secondaryTextColor py-10"
 const cardTitle = "text-3xl font-bold text-secondaryTextColor pl-5 pt-4"
 const cartText = "text-xl font-bold text-secondaryTextColor pl-5"
-const cardBtm = "flex w-[200px] px-10 py-3 bg-btmContacts text-secondaryTextColor rounded-md my-5 ml-5"
+const cardBtm = "flex flex-row w-[240px] text-xl text-center justify-center py-3 bg-btmContacts text-secondaryTextColor rounded-md my-5 ml-5"
 
 const Services = () => {
 

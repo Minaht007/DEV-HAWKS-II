@@ -10,6 +10,7 @@ const AboutUs = () => {
 
   const t = useTranslations('Header')
   const c = useTranslations('AboutUs')
+  const p = useTranslations('ADV')
 
 
   return (
@@ -33,7 +34,7 @@ const AboutUs = () => {
               className={svgStyle}
             />
           </svg>
-          <p className={cardText}>On Time delivery</p>
+          <p className={cardText}>{p('adv2')}</p>
         </div>
         <div className={cardStyles}>
           <svg>
@@ -42,7 +43,7 @@ const AboutUs = () => {
               className={svgStyle}
             />
           </svg>
-          <p className={cardText}>Professionalism</p>
+          <p className={cardText}>{p('adv4')}</p>
         </div>
         <div className={cardStyles}>
           <svg>
@@ -51,7 +52,7 @@ const AboutUs = () => {
               className={svgStyle}
             />
           </svg>
-          <p className={cardText}>100% Satisfaction</p>
+          <p className={cardText}>{p('adv3')}</p>
         </div>
         <div className={cardStyles}>
           <svg>
@@ -60,7 +61,7 @@ const AboutUs = () => {
               className={svgStyle}
             />
           </svg>
-          <p className={cardText}>Best Performance</p>
+          <p className={cardText}>{p('adv1')}</p>
         </div>
       </div>
     </div>
