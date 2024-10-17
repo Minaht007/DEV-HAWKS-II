@@ -60,6 +60,51 @@
         "text": "specializes in custom software development, programming, and consulting services tailored for local and community-based clients. Elevate your digital presence with our innovative solutions and personalized approach.",
         "footerPlaceholder": "Enter your email address",
         "footerBtm": "Send message"
+    },
+
+    "GetStarted": {
+        "title1": "Please answer the questions and we can better understand the task.",
+        "title2": "When filling out the brief, please provide detailed answers. It is important for us to hear your personal opinions and needs. Write in simple language, as you understand the questions.",
+        "title3": "The authors of the answers should be decision makers.",
+        "title4": " We are ready to sign a confidentiality agreement if this is necessary for the accurate filling out of the brief.",
+        
+        "label1": "Name",
+        "label2": "Name of your company",
+        "label3": "Tell us more about the business. (Describe in detail the brand/product/service for which the website will be created.)",
+        "getStartedPlaceholder": "Your answer",
+        "label4": "Tell us about the competitive advantages of your brand, product or service.",
+        "label5": "Tell us about your brand and its advantages",
+        "label6-1": "List your key competitors, preferably with links to their sites.",
+        "label6-2": "Describe what you like and don't like about competitors' sites?",
+        "label7": "Tasks of the site (what role should it play)",
+        "label8": "Do you have a website now? What do you like and dislike about it?",
+        "label10": "Who is your target audience?",
+        "label11": "If there are additional site goals, specify them:",
+        "label12": "List the main items of the site's navigation menu",
+        "label13": "Tell us more about the business. (Describe in detail the brand/product/service for which the website will be created.)",
+        "label14": "What main sections should the site contain?",
+        "label15": "Specify the key services of the site - application forms, etc.",
+        "label16": "What functions should be implemented on the main page?",
+        "label17": "What general features would you like to include in the site? (For example, filling the shopping cart, subscribing to the newsletter, and so on.)",      
+        "label18": "Do you need to connect analytics and set up conversion tracking from the site.",
+        "label19": "What other requirements do you have for the site?",
+        "label20": "Do you have a domain for your site or do you need to buy one?",
+
+        "blockTreeTitle": "Additional information",
+        "blockTreeUnderTitle": "What is the approximate frequency of updating information on the site?",
+        "check-1": "once a week",
+        "check-2": "once a month",
+        "check-3": "Once every six months",
+        "check-4": "once a year",
+        "check-5": "other",
+        "blockThreeInputPlaceholder": "type your variant",
+        "label-21": "Does your upcoming website need technical support and support?",
+        "check-6": "Yes",
+        "check-7": "No",
+        "label-22": "If you have additional information that will be useful for us, please tell us."
+
+        
+
     }
 
 }

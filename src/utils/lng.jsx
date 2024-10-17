@@ -9,6 +9,7 @@ import { useLocale } from "next-intl";
 
 const LngSwitcher = () => {
   const [isPending, startTransition] = useTransition();
+  console.log(isPending)
   const router = useRouter();
   const localActive = useLocale();
   const [isOpen, setIsOpen] = useState(false);
