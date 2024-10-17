@@ -122,9 +122,7 @@ const Brief = () => {
             rows="4"
             className={inputStyle}
           />
-        </label>
-
-        {/* <input type="checkbox" className="flex flex-row" />dgddgfd */}
+        </label>        
 
         <label htmlFor="" className={labelStyle}>
         {t('label12')}

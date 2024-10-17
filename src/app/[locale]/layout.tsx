@@ -32,7 +32,7 @@ export default async function LocaleLayout({
   children,
   params: { locale },
 }: Readonly<RootLayoutProps>) {
-  const messages = await getMessages(locale);
+  const messages = await getMessages({locale});
 
   return (
     <html lang={locale}>

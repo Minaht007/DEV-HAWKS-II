@@ -20,7 +20,7 @@ const Hero = () => {
             <p className="text-textContacts font-bold text-xl pl-3">{t('title')}</p>
           </div>
           <h1 className="text-5xl text-textContacts font-ball">
-            {t('slogan1')} <br/> {t('slogan2')}
+            {t("slogan1")} <br/> {t("slogan2")}
           </h1>
           <Image
             src={underLine}

@@ -6,11 +6,13 @@
         "price": "Price",
         "contact": "Contacts"
     },
+    
     "Hero": {
         "title": "Make your business online",
         "slogan1": "Grow you Business",
         "slogan2": "with DEV HAWKS"
     },
+
     "ADV": {
         "adv1": "Best Performance",
         "adv2": "On time delivery",
@@ -102,9 +104,5 @@
         "check-6": "Yes",
         "check-7": "No",
         "label-22": "If you have additional information that will be useful for us, please tell us."
-
-        
-
-    }
-
+     }
 }
