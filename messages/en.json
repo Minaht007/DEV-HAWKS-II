@@ -185,5 +185,9 @@
         "paragraph-6": "The main part of the development team&apos;s work, where we write code and implement the necessary functions, is creating all the pages of your application in compliance with the logic and main goal of the project. At each stage, the application is tested - it is important to make sure that all elements work stably and perform their main functions.",
         "step-5": "Support",
         "paragraph-7": " Once the application has successfully passed the test and entered the market, we support it, refine existing functions or add new ones based on your business objectives and analysis of the effectiveness of user interaction with the site."
+     },
+
+     "ContactUs": {
+        "slogan": "Leave your question and contacts and we are answer in nearest time"
      }
 }
