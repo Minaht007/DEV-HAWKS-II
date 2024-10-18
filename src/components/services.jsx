@@ -48,7 +48,7 @@ const Services = () => {
           </svg>
           <p className={cardTitle}>Programming</p>
           <p className={cartText}>{t('serviceCard2')}</p>
-          <Link href="wps" className={cardBtm}>{t('serviceCardBtm')}</Link>
+          <Link href={`/${currentLocation}/wps`} className={cardBtm}>{t('serviceCardBtm')}</Link>
         </div>
         
         
@@ -58,7 +58,7 @@ const Services = () => {
           </svg>
           <p className={cardTitle}>Consultation</p>
           <p className={cartText}>{t('serviceCard3')}</p>
-          <Link href="consultationService" className={cardBtm}>{t('serviceCardBtm')}</Link>
+          <Link href={`/${currentLocation}/consultationService`} className={cardBtm}>{t('serviceCardBtm')}</Link>
         </div>
       </div>
 
