@@ -7,6 +7,8 @@ import { useTransition } from "react";
 import { useRouter } from "next/navigation";
 import { useLocale } from "next-intl";
 
+// const lngTextStyle = "md:text-lg desk:text-2xl"
+
 const LngSwitcher = () => {
   const [isPending, startTransition] = useTransition();
 
@@ -29,22 +31,22 @@ const LngSwitcher = () => {
         onClick={() => setIsOpen((prev) => !prev)}
         className="flex items-center p-2 border rounded"
       >
-        <Image
+        {/* <Image
           src={localActive === 'en' ? enFlagImg : ukrainianFlagImg}
           alt={localActive === 'en' ? 'English' : 'Ukrainian'}
           width={20}
           height={20}
-        />
-        {localActive === 'en' ? ' English' : ' Українська'}
+        /> */}
+        {localActive === 'en' ? <Image src={enFlagImg} alt="English" width={40} height={40} /> : <Image src={ukrainianFlagImg} alt="Ukrainian" width={20} height={20} /> }
       </button>
       
       {isOpen && (
         <div className="absolute z-10 bg-white border border-gray-300 rounded mt-2">
           <button onClick={() => onSelectChange('en')} className="flex items-center p-2 w-full">
-            <Image src={enFlagImg} alt="English" width={20} height={20} /> English
+            <Image src={enFlagImg} alt="English" width={40} height={40} /> 
           </button>
           <button onClick={() => onSelectChange('ua')} className="flex items-center p-2 w-full">
-            <Image src={ukrainianFlagImg} alt="Ukrainian" width={20} height={20} /> Українська
+            <Image src={ukrainianFlagImg} alt="Ukrainian" width={20} height={20} /> 
           </button>
         </div>
       )}
@@ -53,3 +55,6 @@ const LngSwitcher = () => {
 };
 
 export default LngSwitcher;
+
+{/* <p style={lngTextStyle}>English</p> */}
+{/* <p style={lngTextStyle}>Українська</p>  */}

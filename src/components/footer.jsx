@@ -42,11 +42,11 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="flex flex-row justify-center items-center">
+      <div className="flex md:flex-col desk:flex-row justify-center items-center">
         <label className="flex flex-col relative">
           <input
             type="email"
-            className={`w-[500px] h-full border-2 border-textContacts pl-4 py-4  rounded-lg focus:outline-none transition-all duration-400 ${
+            className={`md:w-[300px] desk:w-[500px] h-full border-2 border-textContacts pl-4 py-4  rounded-lg focus:outline-none transition-all duration-400 ${
               isFocused ? "" : ""
             }`}
             inputMode="latin"
@@ -64,7 +64,7 @@ const Footer = () => {
             {t('footerPlaceholder')}
           </p>
         </label>
-        <button type="submit" className="text-lg text-secondaryTextColor px-16 py-3 font-bold bg-numberBG rounded-lg ml-4 pointer">
+        <button type="submit" className="text-lg text-secondaryTextColor px-16 py-3 font-bold bg-numberBG rounded-lg md:mt-4 ml-4 pointer">
         {t('footerBtm')}
         </button>
       </div>

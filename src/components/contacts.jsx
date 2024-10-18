@@ -8,7 +8,7 @@ const Contacts = () => {
     return (
         <section className="flex justify-between py-20 bg-bgColor pl-10 rounded-l-xl" id="contact">
            <ContactForm/>
-            <div>
+            <div className="sm:hidden md:hidden desk:block">
                 <Image src={map} alt="map" width={800} height={940} className="rounded-md" />
             </div>
         </section>

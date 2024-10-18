@@ -7,7 +7,7 @@ import { useLocale, useTranslations } from "next-intl";
 
 import LngSwitcher from "../utils/lng"
 
-const linkStyle = "text-3xl text-textContacts";
+const linkStyle = "md:text-2xl desk:text-3xl text-textContacts";
 
 const Header = () => {
 
@@ -27,14 +27,14 @@ const Header = () => {
           alt="logo"
           width={140}
           height={60}
-          className="w-80 h-54 hidden md:block"
+          className=" w-80 h-54 hidden desk:block"
         />
         <Image
           src={Logo}
           alt="logo"
           width={140}
           height={60}
-          className="w-20 h-20 md:hidden"
+          className="sm:w-10 sm:h-10 md:w-20 md:h-20 desk:hidden"
         />
       </Link>
 
@@ -50,31 +50,13 @@ const Header = () => {
       <p className={linkStyle}>{t('price')}</p>
 
       <Link
-        className="border-2 border-borderColor rounded-[12px] text-2xl text-secondaryTextColor bg-btmContacts px-10 py-3"
+        className="border-2 border-borderColor rounded-[12px] md:text-xl desk:text-2xl text-secondaryTextColor bg-btmContacts md:px-6 desk:px-10 py-3"
         href="/#contact"
       >
         {t('contact')}
       </Link>
 
-      <LngSwitcher />
-
-      {/* <div>
-        <div onClick={() => setFlagMenuOpen(!flagMenuOpen)}>
-          <img src={currentLanguage()} alt="flag" className="w-8 h-8" />
-        </div> */}
-
-        {/* {flagMenuOpen&& (
-        <ul>
-          {languageList.map((item) => (
-            <li key={item.id}>
-              <button onClick={()=> handleFlagClick(item.abbreviation)}>
-                <Image src={item.img} alt={item.title} width={40} height={40} />
-              </button>
-            </li>
-          ))}
-        </ul>
-      )} */}
-      {/* </div> */}
+      <LngSwitcher />      
     </nav>
   );
 };

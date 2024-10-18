@@ -19,7 +19,7 @@ const Hero = () => {
             <Image src={checkOne} alt="check" width={12} height={12} className="w-6 h-6" />
             <p className="text-textContacts font-bold text-xl pl-3">{t('title')}</p>
           </div>
-          <h1 className="text-5xl text-textContacts font-ball">
+          <h1 className="md:text-3xl desk:text-5xl text-textContacts font-ball">
             {t("slogan1")} <br/> {t("slogan2")}
           </h1>
           <Image
@@ -27,9 +27,9 @@ const Hero = () => {
             alt="underLine"
             width={400}
             height={10}
-            className="pb-20"
+            className="pb-20 md:w-[200px]"
           />
-          <Link href={`/${currentLocation}/getStarted`} className="border-2 border-borderColor rounded-[12px] text-secondaryTextColor text-2xl bg-btmContacts px-10 py-3">
+          <Link href={`/${currentLocation}/getStarted`} className="border-2 border-borderColor rounded-[12px] text-secondaryTextColor md:text-xl desk:text-2xl bg-btmContacts md:px-6 desk:px-10 py-3">
             Get Started
           </Link>
         </div>
