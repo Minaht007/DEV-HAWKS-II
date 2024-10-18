@@ -104,5 +104,71 @@
         "check-6": "Yes",
         "check-7": "No",
         "label-22": "If you have additional information that will be useful for us, please tell us."
+     },
+
+     "WDS": {
+        "underTitle": "This article will help you understand better. which application is more suitable for you.",
+        "scriptOne": "Having an online presence, either on a website or web app, is important for any business in today's digital climate. Most business owners would say it's a necessity.",
+        "scriptTwo": "According to many studies, it takes less than a second for viewers to form an opinion about your website. They expect a fast, well-designed site that provides a good user experience. It encourages them to stay longer and could even convince them to do business with your company.",
+        "underTitleTwo": "Web application and website: what is the difference?",
+        "scriptThree": " Many people wonder — what is the difference between a website and an application? At first glance, these two concepts are the same, but the differences lie in the internal work with them and the creation of the project itself.",
+        "scriptFour": "This is one or more web pages that show the user informational content: articles, videos, pictures, music. As a rule, this data is static and the user cannot interact with it, that is, change anything on the page. Usually, a site is used to demonstrate products, talk about a brand, its history and achievements, publish useful cases and articles. Often, authentication is not required here, which means that all information is available to every user.",
+        "scriptFive": "A full-fledged program with advanced functionality. In fact, this is the same site, only with interactive elements that solve several client problems at once. Here he will already be able to interact with the content and carry out various manipulations, within acceptable limits: add information, communicate with other users, order goods, pay for purchases, add or remove products from the basket. Therefore, the important point here is to register yourself as a user, and this is much more common than with websites.",
+        "underTitleThree": "Types of web applications",
+        "scriptSix": "Now that we have figured out what a web application is, how it works and how it differs from a website, let's look at their types from a technical classification point of view:",
+        "scriptSeven": "is a single-page interactive application that does not require reloading the main page during its operation. Unlike traditional web applications, they work faster, since all the application logic is implemented in the browser, not on the server.",
+        "underTitleFour": "User-friendly interface.",
+        "scriptEight": "It is easier for the user to navigate on one page, when there is only one option for movement - down. No additional links will distract his attention and will not allow him to get confused inside the program.",
+        "underTitleFive": "High speed.",
+        "scriptNine": "During operation, the application does not update the entire page, but only loads the content the user needs. Therefore, it works much faster than multi-page sites - a request to the server is made once, after which the information on the page is simply supplemented.",
+        "underTitleSix": "Data caching.",
+        "scriptTen": "The cache works in the same way - it is enough to contact the server once and it will save all the user's data. Now the client will be able to work in the application even in offline mode.",
+        "underTitleSeven": "Data caching.",
+        "scriptEleven": "Single-page applications have only one URL that does not change during operation, unlike multi-page applications. Therefore, the developer can bind only one search query to it. Such sites are difficult to optimize for search engines due to the fact that the search bot simply will not find additionally loaded information.",
+       
+        "textNegative": "Negative:",
+        "textPositive": "Positive:",
+
+        "underTitleEight": "Poor security",
+        "scriptTwelve":"Single-page applications are more susceptible to attack by hackers who steal user data using cross-site scripts. They inject them from the client side and can easily obtain confidential information. MPA and PWA, which we will consider below, have much better security settings.",
+       
+        "whenUse": "When to use:",
+        
+        "scriptThirteen": "Suitable for creating social networks, various dynamic platforms with a small amount of information and no great need for SEO keys.",
+
+        "block 2": "______________________________________________________________",
+        "scriptFourteen": "is a multi-page web application. It allows the user to switch between individual pages when making a request. Such resources, as a rule, have a more complex interface and a large number of additional links. With each new request, for example, when paying for a product, the user will open a new page.",
+        "underTitleNine": "Excellent SEO.",
+        "script": "Unlike SPA, each page of MPA has its own URL, which makes it possible to perfectly control user SEO requests - for each of them, the developer can add a unique key and meta tags.",
+        "underTitleTen": "Unlimited scalability.",
+        "scriptSixteen": "MPA does not limit you in the number of pages you can create and the information you need to place on it. Unlike SPA, you can use many functions on one page. Therefore, if your goal is to provide more opportunities for the client, choose MPA.",
+        "underTitleEleven": "Low speed.",
+        "scriptSeventeen": "With each interaction with the application, the server reloads and updates all resources - HTML, CSS, scripts and all page data. Therefore, the response time to a request increases, which can negatively affect the performance of the application.",
+        "underTitleTwelve": "More complex development.",
+        "scriptEighteen": "When creating such an application, a full-fledged development of the server and front-end parts of the program and the use of frameworks for the external and internal interface is required. All this takes much more time, compared to creating an SPA.",
+
+        "scriptNineteen": "is a progressive web application. It is developed using special technologies and can work without an Internet connection. Such applications are available on all devices and adapt to any screen width of a phone or computer. They can be installed on the main screen of your smartphone, send notifications and use it as a full-fledged application.",
+        "underTitleThirteen": "Fast development.",
+        "scriptTwenty": "PWA development takes less time than creating native applications, so it is more accessible.",
+        "underTitleFourteen": "Optional installation.",
+        "scriptTwentyOne": "The application can be used directly through the browser, without downloading it from the app store. This means that during development, you will not need to take into account their rules and adjust the program to the standard.",
+        "underTitleFifteen": "Many devices.",
+        "scriptTwentyTwo": "PWA is available in the browser on computers, phones and tablets, which significantly improves the user experience.",
+        "underTitleSixteen": "Offline mode.",
+        "scriptTwentyThree": " Users do not need to download the entire application every time - it can partially work offline.",
+        "underTitleSeventeen": "Low performance.",
+        "scriptTwentyFour": "PWA is inferior in performance to native applications.",
+        "underTitleEighteen": "No access to app stores.",
+        "scriptTwentyFive": "Before adding the app icon to your phone screen, the user must first visit this website.",
+        "scriptTwentySix": " Suitable for large network companies to control the work system, increase customer loyalty and work on brand recognition; services for the provision of services; businesses to create online courses.",
+        "underTitleNineteen": "Web applications for business",
+        "scriptTwentySeven": "Used to automate company sales and interaction with clients. With such a system, you can increase sales, optimize marketing, improve customer service, set up and control business processes, analyze the results of your activities.",
+        "underTitleTwenty": "E-commerce systems.",
+        "scriptTwentyEight": "Systems for electronic online transactions. With their help, users make purchases, sell goods, transfer funds without the participation of third parties. E-commerce includes: online stores, marketplaces, courier services, b2b services and platforms.",
+        "scriptTwentyNine": "Used to manage business processes in the company: from the sales department to accounting. With its help, you can track the performance of each department and set appropriate tasks to improve it.",
+        "underTitleTwentyOne": "Corporate portals.",
+        "scriptThirty": "Systems for electronic online transactions. With their help, users make purchases, sell goods, transfer funds without the participation of third parties. E-commerce includes: online stores, marketplaces, courier services, b2b services and platforms.",
+        "downText":"We hope you found it interesting and useful."
+        
      }
 }

@@ -2,7 +2,7 @@
 import Image from "next/image"
 import Img from "../../public/img/chooseUs/chooseUs.png"
 import Link from "next/link"
-import { useTranslations } from "next-intl"
+import { useLocale, useTranslations } from "next-intl"
 
 const cardStyle = "flex flex-col bg-textContacts rounded-xl w-[370px] my-20"
 const useStyle = "w-10 h-10 fill-secondaryTextColor py-10"
@@ -13,6 +13,7 @@ const cardBtm = "flex flex-row w-[240px] text-xl text-center justify-center py-3
 const Services = () => {
 
   const t = useTranslations('Services')
+  const currentLocation = useLocale()
 
 
   return (
@@ -37,7 +38,7 @@ const Services = () => {
           </svg>
           <p className={cardTitle} >Web Development</p>
           <p className={cartText}>{t('serviceCard1')}</p>
-          <Link href="webDevelopmentService" className={cardBtm}>{t('serviceCardBtm')}</Link>
+          <Link href={`/${currentLocation}/webDevelopmentService`} className={cardBtm}>{t('serviceCardBtm')}</Link>
         </div>
 
 
