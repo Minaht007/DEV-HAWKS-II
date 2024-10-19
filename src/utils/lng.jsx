@@ -37,16 +37,16 @@ const LngSwitcher = () => {
           width={20}
           height={20}
         /> */}
-        {localActive === 'en' ? <Image src={enFlagImg} alt="English" width={40} height={40} /> : <Image src={ukrainianFlagImg} alt="Ukrainian" width={20} height={20} /> }
+        {localActive === 'en' ? <Image src={enFlagImg} alt="English" width={60} height={60} /> : <Image src={ukrainianFlagImg} alt="Ukrainian" width={30} height={30} /> }
       </button>
       
       {isOpen && (
         <div className="absolute z-10 bg-white border border-gray-300 rounded mt-2">
           <button onClick={() => onSelectChange('en')} className="flex items-center p-2 w-full">
-            <Image src={enFlagImg} alt="English" width={40} height={40} /> 
+            <Image src={enFlagImg} alt="English" width={60} height={60} /> 
           </button>
           <button onClick={() => onSelectChange('ua')} className="flex items-center p-2 w-full">
-            <Image src={ukrainianFlagImg} alt="Ukrainian" width={20} height={20} /> 
+            <Image src={ukrainianFlagImg} alt="Ukrainian" width={60} height={60} /> 
           </button>
         </div>
       )}
