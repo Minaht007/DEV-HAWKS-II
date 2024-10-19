@@ -18,7 +18,7 @@ const Services = () => {
 
 
   return (
-    <div className="bg-bgColor py-16 px-10 rounded-l-2xl" id="services relative">
+    <div className="bg-bgColor py-16 px-10 rounded-l-2xl" id="services relative layout">
       <h1 className="md:text-4xl desk:text-5xl font-bold text-textContacts">{t('title')}</h1>
 
       <div className="flex flex-row justify-between items-center mx-auto mt-20">
@@ -63,7 +63,7 @@ const Services = () => {
         </div>
       </div>
 
-      <div className="flex flex-row bg-bgColor my-5 pl-5 rounded-l-2xl relative">
+      <div className="flex flex-row bg-bgColor my-5 pl-5 rounded-l-2xl relative layout">
         <div >
             <h2  className="md:text-4xl desk:text-5xl font-bold text-textContacts">{t('serviceTitle2')}</h2>
             <p className="md:text-3xl desk:text-4xl font-bold py-10">{t('serviceUnderTitle2')}</p>
@@ -75,7 +75,7 @@ const Services = () => {
                 </div>
                 <div className="pl-4 w-[800px]">
                     <p className="md:text-2xl desk:text-4xl font-bold pb-6">{t('servicePointOne')}</p>
-                    <p className="md:text-lg desk:text-xl pb-10 " >{t('serviceTextThree')}</p>
+                    <p className="md:text-lg md:w-[600px] desk:text-xl pb-10 " >{t('serviceTextThree')}</p>
                 </div> 
             </div>
 
@@ -85,7 +85,7 @@ const Services = () => {
                 </div>
                 <div className="pl-4 desk:w-[800px]">
                     <p className="md:text-2xl desk:text-4xl font-bold pb-6">{t('servicePointTwo')}</p>
-                    <p className="md:text-lg desk:text-xl pb-10" >{t('serviceTextFour')}</p>
+                    <p className="md:text-lg  md:w-[600px] desk:text-xl pb-10" >{t('serviceTextFour')}</p>
                 </div> 
             </div>
 
@@ -95,13 +95,13 @@ const Services = () => {
                 </div>
                 <div className="pl-4 w-[800px]">
                     <p className="md:text-2xl desk:text-4xl font-bold pb-6">{t('servicePointThree')}</p>
-                    <p className="md:text-lg desk:text-xl" >{t('serviceTextFive')}</p>
+                    <p className="md:text-lg  md:w-[600px] desk:text-xl" >{t('serviceTextFive')}</p>
                 </div> 
             </div>
         </div>
 
-        <div className="bg-bgColor pl-5">
-            <Image src={Img} alt="img" width={600} height={800} className="desk:w-[520px] desk:h-[680px] sm:hidden md:hidden desk:block"  />
+        <div className="bg-bgColor pl-5 sm:hidden md:hidden desk:block">
+            <Image src={Img} alt="img" width={600} height={800} className="desk:w-[520px] desk:h-[680px] "  />
         </div>
         
       </div>

@@ -15,7 +15,7 @@ const AboutUs = () => {
 
 
   return (
-    <div className="mt-16 w-full px-10" id="aboutUs">
+    <div className="mt-16 w-full px-10 layout" id="aboutUs">
       <h1 className="md:text-4xl desk:text-5xl font-bold text-textContacts">{t('aboutUs')}</h1>
 
       <div className="flex flex-row justify-between items-center mx-auto mt-20">

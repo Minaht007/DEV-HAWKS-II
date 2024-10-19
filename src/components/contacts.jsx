@@ -6,7 +6,7 @@ import ContactForm from "@/components/contactForm"
 const Contacts = () => {
 
     return (
-        <section className="flex justify-between py-20 bg-bgColor pl-10 rounded-l-xl" id="contact">
+        <section className="flex justify-between py-20 bg-bgColor pl-10 rounded-l-xl" id="contact layout">
            <ContactForm/>
             <div className="sm:hidden md:hidden desk:block">
                 <Image src={map} alt="map" width={800} height={940} className="rounded-md" />
