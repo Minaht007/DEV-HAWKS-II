@@ -63,7 +63,7 @@ const Services = () => {
         </div>
       </div>
 
-      <div className="flex flex-row bg-bgColor my-5 pl-5 rounded-l-2xl relative layout">
+      <div className="flex flex-row bg-bgColor my-5 pl-5 rounded-l-2xl md:w-[768px] relative layout">
         <div >
             <h2  className="md:text-4xl desk:text-5xl font-bold text-textContacts">{t('serviceTitle2')}</h2>
             <p className="md:text-3xl desk:text-4xl font-bold py-10">{t('serviceUnderTitle2')}</p>
