@@ -101,7 +101,7 @@ const Services = () => {
         </div>
 
         <div className="bg-bgColor pl-5 sm:hidden md:hidden desk:block">
-            <Image src={Img} alt="img" width={600} height={800} className="desk:w-[520px] desk:h-[680px] "  />
+            <Image src={Img} alt="img" width={600} height={800} className="desk:w-[520px] desk:h-[680px] sm:hidden md:hidden desk:block "  />
         </div>
         
       </div>
