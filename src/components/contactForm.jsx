@@ -2,8 +2,8 @@
 import { useTranslations } from "next-intl";
 
 const inputStyle = "w-[280px] h-10 border-2 border-textContacts rounded-xl pl-2 text-textContacts placeholder-textContacts";
-const inputStyleSubject = "w-[580px] h-10 border-2 border-textContacts rounded-xl pl-2";
-const textAreaStyle = "border-2 border-textContacts rounded-xl pl-2 pt-1";
+const inputStyleSubject = "sm:w-[460px] w-[580px] h-10 border-2 border-textContacts rounded-xl pl-2";
+const textAreaStyle = "sm:w-[460px] border-2 border-textContacts rounded-xl pl-2 pt-1";
 
  const ContactForm = () => {
   const t = useTranslations('ContactForm'); 
@@ -12,8 +12,8 @@ const textAreaStyle = "border-2 border-textContacts rounded-xl pl-2 pt-1";
     <form>
       <h1 className="text-5xl text-textContacts font-bold mb-10">Contacts</h1>
       
-      <div className="flex mx-5 my-5">
-        <label htmlFor="firstName" className="mr-5">
+      <div className="flex sm:flex-col mx-5 my-5">
+        <label htmlFor="firstName" className="mr-5 sm:mb-4">
           <input type="text" id="firstName" placeholder={t('firstName')} className={inputStyle} />
         </label>
         <label htmlFor="lastName">
@@ -21,8 +21,8 @@ const textAreaStyle = "border-2 border-textContacts rounded-xl pl-2 pt-1";
         </label>
       </div>
 
-      <div className="flex mx-5 my-5">
-        <label htmlFor="email" className="mr-5">
+      <div className="flex sm:flex-col mx-5 my-5">
+        <label htmlFor="email" className="mr-5 sm:mb-4">
           <input type="email" id="email" placeholder="email" className={inputStyle} required />
         </label>
         <label htmlFor="phone" className="mr-5">
@@ -30,7 +30,7 @@ const textAreaStyle = "border-2 border-textContacts rounded-xl pl-2 pt-1";
         </label>
       </div>
 
-      <div className="flex flex-col mx-5 my-5">
+      <div className="flex sm:flex-col flex-col mx-5 my-5">
         <label htmlFor="subject" className="mr-5 flex flex-col">
           <p className="pl-2">{t('subject')}*</p>
           <input type="text" id="subject" required className={inputStyleSubject} />
@@ -44,7 +44,7 @@ const textAreaStyle = "border-2 border-textContacts rounded-xl pl-2 pt-1";
         </label>
 
         <div className="flex mt-10 justify-center">
-          <button className="w-[280px] bg-btmContacts text-center text-2xl text-secondaryTextColor font-bold rounded-2xl py-4 px-10">
+          <button className="sm:w-52 w-[280px] bg-btmContacts text-center text-2xl text-secondaryTextColor font-bold rounded-2xl py-4 px-10">
             {t('contactBtm')}
           </button>
         </div>

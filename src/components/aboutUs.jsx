@@ -1,10 +1,10 @@
 import { useTranslations } from "next-intl";
 
 
-const cardStyles = "flex flex-col md:w-40 md:h-40 desk:w-60 desk:h-60 border-none rounded-lg bg-textContacts justify-center items-center"
-const svgStyle = "md:w-10 desk:w-28"
+const cardStyles = "flex flex-col sm:w-52 md:w-40 md:h-40 desk:w-60 desk:h-60 border-none rounded-lg bg-textContacts justify-center items-center"
+const svgStyle = "sm:w-16 md:w-10 desk:w-28"
 const useStyle = "md:w-[16px] md:h-4 desk:w-8 desk:h-8 fill-secondaryTextColor mx-auto md:items-center"
-const cardText = "md:text-xl desk:text-2xl md:text-center text-secondaryTextColor py-4"
+const cardText = "sm:text-2xl md:text-xl desk:text-2xl sm:text-center md:text-center text-secondaryTextColor py-4"
 
 
 const AboutUs = () => {
@@ -18,7 +18,7 @@ const AboutUs = () => {
     <div className="mt-16 w-full px-10 layout" id="aboutUs">
       <h1 className="md:text-4xl desk:text-5xl font-bold text-textContacts">{t('aboutUs')}</h1>
 
-      <div className="flex sm:flex-col md:flex-row  desk:flex-row justify-between items-center mx-auto desk:mt-20 mt-10">
+      <div className="flex justify-between items-center mx-auto desk:mt-20 mt-10">
         <p className="w-[510px] sm:text-center md:text-start desk:text-start md:text-3xl desk:text-5xl font-bold leading-relaxed px-10">
         {c('sloganAboutUs')}
         </p>
@@ -27,7 +27,7 @@ const AboutUs = () => {
         </p>
       </div>
 
-      <div className="flex flex-row justify-around items-center my-20">
+      <div className="flex sm:flex-wrap md:flex-wrap desk:flex-row justify-around items-center gap-10 my-10">
         <div className={cardStyles}>
           <svg className={svgStyle} >
             <use
