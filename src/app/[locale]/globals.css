@@ -26,11 +26,11 @@ body {
   } */
 
   .layout {
-    width: 390px;
+    width: 300px;
     margin-left: auto;
     margin-right: auto;
 
-   @media screen and (min-width: 390px) {
+   @media screen and (min-width: 300px) {
     width: 100%;
     max-width: 1440px;
    }
