@@ -18,7 +18,7 @@ const Services = () => {
 
 
   return (
-    <div className="bg-bgColor sm:py-8 md:py-12 desk:py-16 px-10 rounded-l-2xl" id="services relative layout">
+    <div className="bg-bgColor sm:py-8 md:py-12 desk:py-16 px-10 rounded-l-2xl relative layout" id="services">
       <h1 className="sm:text-3xl md:text-4xl desk:text-5xl font-bold text-textContacts">{t('title')}</h1>
 
       <div className="flex w-full flex-row sm:justify-around justify-between items-center mx-auto sm:mt-10 md:mt-16 desk:mt-20">
@@ -63,7 +63,9 @@ const Services = () => {
         </div>
       </div>
 
-      <div className="flex flex-row bg-bgColor sm:my-2 desk:my-5 pl-5 rounded-l-2xl sm:w-100 md:w-[768px] relative layout">
+      {/* Why choose us */}
+
+      <div className="flex flex-row bg-bgColor sm:my-2 desk:my-5 pl-5 rounded-l-2xl sm:w-100 md:w-[768px] layout">
         <div >
             <h2  className="md:text-4xl desk:text-5xl font-bold text-textContacts">{t('serviceTitle2')}</h2>
             <p className="md:text-3xl desk:text-4xl font-bold py-10">{t('serviceUnderTitle2')}</p>
@@ -100,8 +102,8 @@ const Services = () => {
             </div>
         </div>
 
-        <div className="bg-bgColor pl-5 sm:hidden md:hidden desk:block">
-            <Image src={Img} alt="img" width={600} height={800} className="desk:w-[520px] desk:h-[680px] sm:hidden md:hidden desk:block "  />
+        <div className="bg-bgColor pl-5 sm:hidden md:hidden desk:block desk:w-[520px] desk:h-[680px]">
+            <Image src={Img} alt="img" width={600} height={800} className="desk:w-[520px] desk:h-[680px]"  />
         </div>
         
       </div>

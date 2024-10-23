@@ -5,7 +5,7 @@ import ContactForm from "@/components/contactForm";
 const Contacts = () => {
   return (
     <section
-      className="flex justify-between items-center py-20 bg-bgColor pl-10 rounded-l-xl"
+      className="flex w-full justify-between items-center py-20 bg-bgColor pl-10 rounded-l-xl"
       id="contact relative layout"
     >
       <ContactForm />
@@ -15,7 +15,7 @@ const Contacts = () => {
           alt="map"
           width={800}
           height={940}
-          className="rounded-md md:min-w-[600px] md:max-w-full md:opacity-70 desk:opacity-100"
+          className="rounded-md md:min-w-[600px] md:max-w-full md:opacity-50 desk:w-[700px] desk:opacity-100 absolute bottom-20 right-0"
         />
       </div>
     </section>
