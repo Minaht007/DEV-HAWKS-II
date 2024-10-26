@@ -43,7 +43,7 @@ const Hero = () => {
           }}
           width={500}
           height={300}
-          className="mr-20"
+          className="mr-20 sm:hidden md:block desk:visible"
         />
       </div>
     </div>

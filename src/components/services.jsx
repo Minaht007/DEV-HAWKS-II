@@ -13,6 +13,14 @@ const cardTitle =
 const cartText = "text-xl font-bold text-secondaryTextColor px-5";
 const cardBtm =
   "flex flex-row w-60 sm:px-2 md:w-48  desk:w-[240px] text-xl text-center justify-center py-3 bg-btmContacts text-secondaryTextColor rounded-md my-5 ml-5 md:absolute md:bottom-4 md:left-[4%]";
+const numberStyles =
+  "sm:text-md desk:text-2xl text-secondaryTextColor font-bold flex justify-center items-center sm:w-6 sm:h-6 desk:w-8 desk:h-8 border-none rounded-full bg-numberBG";
+const pointContainerStyle =
+  "sm:min-w-[300px] sm:max-w-[460px] sm:pl-2 desk:pl-4 desk:w-[800px]";
+const pointTitleStyle =
+  "sm:text-start md:text-2xl desk:text-4xl font-bold sm:pb-2 md:pb-4 desk:pb-6";
+const pointTextStyle =
+  "flex flex-wrap sm:text-start md:text-lg md:w-[600px] desk:text-xl pb-10";
 
 const Services = () => {
   const t = useTranslations("Services");
@@ -20,7 +28,7 @@ const Services = () => {
 
   return (
     <div
-      className="bg-bgColor sm:py-8 md:py-12 desk:py-16 px-10 rounded-l-2xl relative layout"
+      className="bg-bgColor w-full sm:py-8 md:py-12 desk:py-16 sm:px-2 desk:px-10 rounded-l-2xl layout"
       id="services"
     >
       <h1 className="sm:text-3xl md:text-4xl desk:text-5xl font-bold text-textContacts">
@@ -92,73 +100,59 @@ const Services = () => {
 
       {/* Why choose us */}
 
-      <div className="flex flex-row bg-bgColor sm:my-2 desk:my-5 pl-5 rounded-l-2xl sm:w-100 md:w-[768px] layout">
-        <div>
-          <h2 className="md:text-4xl desk:text-5xl font-bold text-textContacts">
+      <div className="flex bg-bgColor sm:my-2 desk:my-5 pl-5 rounded-l-2xl  md:w-full relative">
+        <div className="sm:text-center sm:max-w-[400px]  desk:max-[700px]">
+          <h2 className="  md:text-4xl desk:text-5xl font-bold text-textContacts">
             {t("serviceTitle2")}
           </h2>
-          <p className="md:text-3xl desk:text-4xl font-bold py-10">
+          <p className="sm:max-w-[400px] md:text-3xl desk:text-4xl font-bold py-10">
             {t("serviceUnderTitle2")}
           </p>
           <p
-            className="sm:w-[400px] md:w-[500px] desk:w-[800px] text-xl pb-10"
+            className="flex flex-wrap sm:max-w-[400px] md:w-[500px] desk:max-w-[800px] sm:text-md desk:text-xl pb-10"
             style={{ textAlign: "justify" }}
           >
             {t("serviceTextOne")}
           </p>
 
-          <div className="flex items-start ">
-            <div className="flex justify-center items-center w-8 h-8 border-none rounded-full bg-numberBG">
-              <p className="text-2xl text-secondaryTextColor font-bold">1</p>
+          <div className="flex items-start sm:min-w-[300px] sm:max-w-[460px]">
+            <div className="">
+              <p className={numberStyles}>1</p>
             </div>
-            <div className="pl-4 w-[800px]">
-              <p className="md:text-2xl desk:text-4xl font-bold sm:pb-2 md:pb-4 desk:pb-6">
-                {t("servicePointOne")}
-              </p>
-              <p className="md:text-lg sm:w-[400px] md:w-[600px] desk:text-xl pb-10 ">
-                {t("serviceTextThree")}
-              </p>
+            <div className={pointContainerStyle}>
+              <p className={pointTitleStyle}>{t("servicePointOne")}</p>
+              <p className={pointTextStyle}>{t("serviceTextThree")}</p>
             </div>
           </div>
 
-          <div className="flex items-start ">
-            <div className="flex justify-center items-center w-8 h-8 border-none rounded-full bg-numberBG">
-              <p className="text-2xl text-secondaryTextColor font-bold">2</p>
+          <div className="flex justify-center items-start sm:min-w-[300px] sm:max-w-[460px]">
+            <div className="">
+              <p className={numberStyles}>2</p>
             </div>
-            <div className="pl-4 desk:w-[800px]">
-              <p className="md:text-2xl desk:text-4xl font-bold sm:pb-2 md:pb-4 desk:pb-6">
-                {t("servicePointTwo")}
-              </p>
-              <p className="md:text-lg sm:w-[400px] md:w-[600px] desk:text-xl pb-10">
-                {t("serviceTextFour")}
-              </p>
+            <div className={pointContainerStyle}>
+              <p className={pointTitleStyle}>{t("servicePointTwo")}</p>
+              <p className={pointTextStyle}>{t("serviceTextFour")}</p>
             </div>
           </div>
 
-          <div className="flex items-start mb-5">
-            <div className="flex justify-center items-center w-8 h-8 border-none rounded-full bg-numberBG">
-              <p className="text-2xl text-secondaryTextColor font-bold">3</p>
+          <div className="flex items-start sm:min-w-[300px] sm:max-w-[460px]">
+            <div className="">
+              <p className={numberStyles}>3</p>
             </div>
-            <div className="pl-4 w-[800px]">
-              <p className="md:text-2xl desk:text-4xl font-bold sm:pb-2 md:pb-4 desk:pb-6">
-                {t("servicePointThree")}
-              </p>
-              <p className="md:text-lg sm:w-[400px] md:w-[600px] desk:text-xl">
-                {t("serviceTextFive")}
-              </p>
+            <div className={pointContainerStyle}>
+              <p className={pointTitleStyle}>{t("servicePointThree")}</p>
+              <p className={pointTextStyle}>{t("serviceTextFive")}</p>
             </div>
           </div>
         </div>
 
-        <div className="bg-bgColor pl-5 sm:hidden md:hidden desk:block desk:w-[520px] desk:h-[680px]">
-          <Image
-            src={Img}
-            alt="img"
-            width={600}
-            height={800}
-            className="desk:w-[520px] desk:h-[680px]"
-          />
-        </div>
+        <Image
+          src={Img}
+          alt="img"
+          width={520}
+          height={680}
+          className="desk:w-[600px] desk:h-[800px] absolute bottom-16 right-0 sm:hidden md:hidden desk:block pl-5"
+        />
       </div>
     </div>
   );

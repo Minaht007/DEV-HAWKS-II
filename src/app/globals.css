@@ -25,13 +25,14 @@ body {
     text-wrap: balance;
   } */
 
-  .layout {
-    width: 390px;
+  .layout {    
+    width: 300px;
     margin-left: auto;
     margin-right: auto;
 
-   @media screen and (min-width: 390px) {
-    width: 100%;
+   @media screen and (min-width: 300px) {
+    /* width: 100%; */
+    width: device-width;
     max-width: 1440px;
    }
   }
