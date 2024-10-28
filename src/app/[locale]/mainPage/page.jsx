@@ -3,7 +3,7 @@ import Advantage from "@/components/advantages"
 import AboutUs from "@/components/aboutUs"
 import Services from "@/components/services"
 import OurTeam from "@/components/ourTeam"
-// import Contacts from "@/components/contacts"
+import Contacts from "@/components/contacts"
 
 const MainPage = () => {
     return (
@@ -13,7 +13,7 @@ const MainPage = () => {
            <AboutUs/>
            <Services/>
            <OurTeam />
-           {/* <Contacts/> */}
+           <Contacts/>
         </div>
     )
 }

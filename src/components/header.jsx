@@ -33,7 +33,7 @@ const Header = () => {
     id="home"
     style={{ position: "sticky", top: "0", zIndex: "10" }}
   >
-    <div>
+    <div className="">
       <Image
         src={burgerMenuImg}
         alt="burgerMenu"
@@ -45,7 +45,7 @@ const Header = () => {
       <BurgerMenu isOpen={burgerOpen} onClick={toggleClickBurger} isClose={closeMenu} />
     </div>
   
-    <div className="flex justify-start items-start sm:mx-auto md:mr-[10%] desk:mr-[8%] ml-0">
+    <div className="flex justify-start items-start md:mr-[10%] desk:mr-[8%] ml-0">
       <Link href="mainPage#home">
         <Image
           src={Logo2}

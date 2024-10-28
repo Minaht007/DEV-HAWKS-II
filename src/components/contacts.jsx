@@ -15,7 +15,7 @@ const Contacts = () => {
           alt="map"
           width={800}
           height={940}
-          className="rounded-md md:min-w-[600px] md:max-w-full md:opacity-50 desk:w-[700px] desk:opacity-100 absolute bottom-20 right-0"
+          className="rounded-md md:w-1/2 md:max-w-full md:opacity-100 desk:w-[700px] desk:opacity-100 absolute md:bottom-[4%] desk:bottom-[2%] right-0"
         />
       </div>
     </section>
