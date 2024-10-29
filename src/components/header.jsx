@@ -74,7 +74,7 @@ const Header = () => {
       <Link className={linkStyle} href={`/${currentLocation}/mainPage#services`}>
         {t("services")}
       </Link>
-      <p className={linkStyle}>{t("price")}</p>
+      <Link href={`/${currentLocation}/prices`} className={linkStyle}>{t("price")}</Link>
   
       <Link
         className="border-2 border-borderColor rounded-[12px] md:text-xl desk:text-2xl text-secondaryTextColor bg-btmContacts md:px-6 desk:px-10 py-3"

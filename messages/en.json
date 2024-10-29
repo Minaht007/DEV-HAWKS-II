@@ -189,5 +189,32 @@
 
      "ContactUs": {
         "slogan": "Leave your question and contacts and we are answer in nearest time"
+     },
+
+     "Prices": {
+        "title": "We offer not only the development of web applications for you, but also their rental.",
+        "underTitleOne": "You are not sure if you need a website, or is creating your own web application too expensive at that moment? We offer a solution:",
+        "underTitleTwo": "We will implement your idea and you will be able to use the application by renting it.",
+        
+        "tableCaption": "Cost of turnkey production:",
+
+        "tabTitleOne": "Type of Application",
+        "tabTitleTwo": "Prices",
+        "tabTitleThree": "Lead time",
+
+        "typeApplicationLanding": "Landing Page",
+        "typeApplicationSmall": "For small business",
+        "typeApplicationMiddle": "For middle business",
+        "typeApplicationLarge": "For large business",
+
+        "pricesLanding": "from 100 dollars",
+        "pricesSmall": "from 200 dollars",
+        "pricesMiddle": "from 500 dollars",
+        "pricesLarge": "from 1500 dollars",
+
+        "leadTimeLanding": "from 3 working days",
+        "leadTimeSmall": "from 1 to 3 month",
+        "leadTimeMiddle": "from 3 to 6 month",
+        "leadTimeLarge": "from 6 month"
      }
 }
