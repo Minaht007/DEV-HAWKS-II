@@ -210,14 +210,20 @@
        "typeApplicationMiddle": "Для середнього бізнесу",
        "typeApplicationLarge": "Для великого бізнесу",
 
-       "pricesLanding": "від 4000 гривень",
-       "pricesSmall": "від 8000 гривень",
-       "pricesMiddle": "від 20 000 гривень",
-       "pricesLarge": "від 70 000 гривень",
+       "pricesLanding": "від 4000",
+       "pricesSmall": "від 8000",
+       "pricesMiddle": "від 20 000 ",
+       "pricesLarge": "від 70 000 ",
 
        "leadTimeLanding": "від 3-х днів",
        "leadTimeSmall": "від 1 до 3 місяців",
        "leadTimeMiddle": "від 3 до 6 місяців",
-       "leadTimeLarge": "від 6 місяців"
+       "leadTimeLarge": "від 6 місяців",
+
+       "rentTitle": "Розробка сайту або додадку з подальшою його арендою",
+       "rentLanding": "Для малого та середнього бізнесу",
+       "priceRentLanding": "від 20",
+       "rentLargeBusiness": "Для великого бізнесу",
+       "priceRentLarge": "від 100"
     }
 }

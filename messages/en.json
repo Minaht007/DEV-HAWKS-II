@@ -206,15 +206,23 @@
         "typeApplicationSmall": "For small business",
         "typeApplicationMiddle": "For middle business",
         "typeApplicationLarge": "For large business",
+        
+        "typeApplicationMobVersion": "",
 
-        "pricesLanding": "from 100 dollars",
-        "pricesSmall": "from 200 dollars",
-        "pricesMiddle": "from 500 dollars",
-        "pricesLarge": "from 1500 dollars",
+        "pricesLanding": "from 100 ",
+        "pricesSmall": "from 200 ",
+        "pricesMiddle": "from 500 ",
+        "pricesLarge": "from 1500 ",
 
         "leadTimeLanding": "from 3 working days",
         "leadTimeSmall": "from 1 to 3 month",
         "leadTimeMiddle": "from 3 to 6 month",
-        "leadTimeLarge": "from 6 month"
+        "leadTimeLarge": "from 6 month",
+
+        "rentTitle": "The cost of website development with subsequent rental",
+        "rentLanding": "For small and middle business",
+        "priceRentLanding": "from 20",
+        "rentLargeBusiness": "For large business",
+        "priceRentLarge": "from 10"
      }
 }

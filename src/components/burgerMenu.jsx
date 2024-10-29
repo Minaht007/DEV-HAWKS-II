@@ -28,7 +28,7 @@ const BurgerMenu = ({ isOpen, toggleClickBurger, isClose }) => {
             </Link>
           </li>
           <li>
-            <p className={linkStyle} onClick={isClose}>{t("price")}</p>
+          <Link href={`/${currentLocation}/prices`} className={linkStyle}>{t("price")}</Link>
           </li>
           <li>
             <Link className={linkStyle} href="/#contact" onClick={isClose}>{t("contact")}</Link>
