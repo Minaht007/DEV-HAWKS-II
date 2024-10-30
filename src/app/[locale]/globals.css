@@ -30,9 +30,20 @@ body {
     margin-left: auto;
     margin-right: auto;
 
-   @media screen and (min-width: 300px) {
-    width: 100%;
-    max-width: 1440px;
-   }
+    @media screen and (min-width: 300px) {
+      width: 100%;
+      max-width: 1440px;
+    }   
   }
+
+  @layer utilities {
+    .text-clamp {
+      @apply text-[clamp(1rem,1vw+1rem,2rem)];      
+    }
+    .padding-clamp {
+      @apply px-[clamp(2rem,4vw+1rem,8rem)];
+    }
+  }
+
+
 }
