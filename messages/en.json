@@ -206,7 +206,7 @@
         "typeApplicationSmall": "For small business",
         "typeApplicationMiddle": "For middle business",
         "typeApplicationLarge": "For large business",
-        
+
         "typeApplicationMobVersion": "",
 
         "pricesLanding": "from 100 ",
@@ -223,6 +223,6 @@
         "rentLanding": "For small and middle business",
         "priceRentLanding": "from 20",
         "rentLargeBusiness": "For large business",
-        "priceRentLarge": "from 10"
+        "priceRentLarge": "from 100"
      }
 }

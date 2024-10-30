@@ -59,7 +59,7 @@ const Header = () => {
           alt="logo"
           width={140}
           height={60}
-          className="sm:w-10 sm:h-10 md:w-20 md:h-20 desk:hidden"
+          className="sm:w-14 sm:h-14 md:w-20 md:h-20 desk:hidden"
         />
       </Link>
     </div>
