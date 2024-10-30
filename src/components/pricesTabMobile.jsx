@@ -1,7 +1,7 @@
 import { useLocale, useTranslations } from "next-intl";
 
 const titleStyle = "text-clamp text-textContacts mb-10 font-bold";
-const underTitle = "text-clamp text-textContacts mb-10";
+const underTitle = "text-clamp text-textContacts mb-4";
 
 const PricesTabForMob = () => {
   const t = useTranslations("Prices");
@@ -18,12 +18,12 @@ const PricesTabForMob = () => {
   return (
     <div className="flex flex-col items-center min-w-[390px] max-w-[767px] px-10 my-10">
       <h1 className={titleStyle}>{t("title")}</h1>
-      <p className={underTitle}>{t("underTitleOne")}</p>
-      <p className={underTitle}>{t("underTitleTwo")}</p>
+      <p className={underTitle} style={{textAlign: "justify"}}>{t("underTitleOne")}</p>
+      <p className={underTitle} style={{textAlign: "justify"}}>{t("underTitleTwo")}</p>
 
-      <table className="flex flex-col items-center my-10">
+      <table className="flex flex-col items-center my-4">
         <caption className="w-[400px]">
-          <h2 className="text-xl text-textContacts underline">{t("tableCaption")}</h2>
+          <h2 className="text-xl text-textContacts underline mb-3">{t("tableCaption")}</h2>
         </caption>
 
         <thead className="flex justify-around min-w-[400px] max-w-[600px]">
@@ -69,7 +69,7 @@ const PricesTabForMob = () => {
 
       <table className="mx-5 my-10">
         <caption className="w-[400px]">
-            <h2 className="text-clamp text-textContacts underline">{t('rentTitle')}</h2>
+            <h2 className="text-clamp text-textContacts underline mb-3">{t('rentTitle')}</h2>
         </caption>
 
         <thead className="flex justify-around min-w-[400px] max-w-[600px]">
