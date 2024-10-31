@@ -13,7 +13,7 @@ const Footer = () => {
   const [isFocused, setIsFocused] = useState(false);
   const [input, setInput] = useState("")
   return (
-    <div className="flex sm:flex-col desk:flex-row py-10 justify-around items-center bg-secondaryBG ">
+    <div className="flex sm:flex-col desk:flex-row py-10 justify-around items-center bg-secondaryBG">
       <div className="flex flex-col sm:w-2/3 md:w-2/3 desk:w-1/3">
         <div>
           <Image

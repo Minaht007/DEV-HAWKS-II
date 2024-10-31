@@ -28,10 +28,18 @@ const ContactForm = () => {
 
 		const data = {
 			to: "dr.andrii.telnov@gmail.com",
-			subject: "Лист з нашого сайту",
+			subject: "DEV-HAWKS Contacts",
 			text: templateMassage,
 		};
 		await sendEmail(data);
+		setClientData({
+			firstName: "",
+            lastName: "",
+            email: "",
+            phone: "",
+            subject: "",
+            message: "",
+        });
 	};
 
 	const onChangeInput = (e) => {

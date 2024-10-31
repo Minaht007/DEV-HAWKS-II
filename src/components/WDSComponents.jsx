@@ -5,7 +5,7 @@ import webAppImg from "../../public/img/wds/webApplication.jpg";
 import Link from "next/link";
 import { useTranslations } from "next-intl";
 
-const title = "text-5xl font-bold py-10 px-10 text-textContacts";
+const title = "textTitle-clamp font-bold py-10 px-10 text-textContacts";
 const underTitle = "text-3xl font-bold py-3 px-10 text-textContacts";
 const text = "text-2xl py-3 px-10 text-textContacts";
 const numberStyle =
@@ -294,12 +294,12 @@ const Article = () => {
           </p>
         </li>
 
-        <li>
+        {/* <li>
           <p className={text} style={{ textAlign: "justify" }}>
             <span className="text-2xl underline pr-2">{t('scriptTwentyNine')}</span>
             {t('scriptThirty')}
           </p>
-        </li>
+        </li> */}
       </ul>
 
       <div className="flex flex-col justify-center items-center mt-10 mb-20">

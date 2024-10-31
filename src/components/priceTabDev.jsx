@@ -1,6 +1,6 @@
 import { useLocale, useTranslations } from "next-intl";
 
-const titleStyle = "text-5xl text-textContacts mb-10";
+const titleStyle = "textTitle-clamp text-textContacts font-bold mb-10";
 const underTitle = "text-3xl text-textContacts mb-10";
 const cellStyle =
   "flex flex-col items-center justify-center text-center md:px-6 desk:px-10 md:mx-2 desk:mx-6 my-2 md:min-text-base md:max-text-lg desk:text-2xl text-secondaryTextColor bg-numberBG rounded-[32px] ";
