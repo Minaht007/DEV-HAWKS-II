@@ -26,10 +26,14 @@ const AboutUs = () => {
         {c('sloganAboutUs')}
         </p>
         </div>
-        
-        <p className="md:w-[600px] desk:w-[710px] md:text-xl desk:text-2xl leading-normal" style={{textAlign: "justify"}}>
+
+        <div className="w-2/3">
+           <p className=" md:text-xl desk:text-2xl leading-normal" style={{textAlign: "justify"}}>
         {c('textAboutUsFirst')} <br/> {c('textAboutUsSecond')} <br/> {c('textAboutUsThird')} <br/> {c('textAboutUsFour')}
-        </p>       
+        </p>  
+        </div>
+        
+            
         
       </div>
 
