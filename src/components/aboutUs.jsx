@@ -19,13 +19,18 @@ const AboutUs = () => {
       <h1 className="md:text-4xl desk:text-4xl font-bold text-textContacts">{t('aboutUs')}</h1>
 
       
-      <div className="flex justify-between items-center mx-auto desk:mt-20 mt-10 sm:flex-col md:flex-row desk:flex-row">
-        <p className="w-[560px] sm:text-center md:text-start desk:text-start md:text-3xl desk:text-5xl font-bold leading-relaxed px-10 py-6">
+      <div className="flex justify-between items-center mx-auto sm:mt-2 md:mt-4 desk:mt-6  sm:flex-col md:flex-row desk:flex-row">
+
+        <div className="sm:w-2/3 md::w-1/3 desk:w-1/3">
+          <p className="sm:text-center md:text-start desk:text-start md:text-3xl desk:text-4xl font-bold leading-loose tracking-wide px-10 py-6">
         {c('sloganAboutUs')}
         </p>
+        </div>
+        
         <p className="md:w-[600px] desk:w-[710px] md:text-xl desk:text-2xl leading-normal" style={{textAlign: "justify"}}>
-        {c('textAboutUs')}
-        </p>
+        {c('textAboutUsFirst')} <br/> {c('textAboutUsSecond')} <br/> {c('textAboutUsThird')} <br/> {c('textAboutUsFour')}
+        </p>       
+        
       </div>
 
       <div className="flex sm:flex-wrap md:flex-wrap desk:flex-row justify-around items-center gap-10 my-10">
