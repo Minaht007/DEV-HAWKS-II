@@ -16,10 +16,11 @@ const AboutUs = () => {
 
   return (
     <div className="mt-16 w-full px-10 layout" id="aboutUs">
-      <h1 className="md:text-4xl desk:text-5xl font-bold text-textContacts">{t('aboutUs')}</h1>
+      <h1 className="md:text-4xl desk:text-4xl font-bold text-textContacts">{t('aboutUs')}</h1>
 
-      <div className="flex justify-between items-center mx-auto desk:mt-20 mt-10">
-        <p className="w-[510px] sm:text-center md:text-start desk:text-start md:text-3xl desk:text-5xl font-bold leading-relaxed px-10">
+      
+      <div className="flex justify-between items-center mx-auto desk:mt-20 mt-10 sm:flex-col md:flex-row desk:flex-row">
+        <p className="w-[560px] sm:text-center md:text-start desk:text-start md:text-3xl desk:text-5xl font-bold leading-relaxed px-10 py-6">
         {c('sloganAboutUs')}
         </p>
         <p className="md:w-[600px] desk:w-[710px] md:text-xl desk:text-2xl leading-normal" style={{textAlign: "justify"}}>
@@ -65,6 +66,9 @@ const AboutUs = () => {
           <p className={cardText}>{p('adv1')}</p>
         </div>
       </div>
+      
+
+    
     </div>
   );
 };
