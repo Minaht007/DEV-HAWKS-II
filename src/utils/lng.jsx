@@ -36,52 +36,33 @@ const LngSwitcher = () => {
   // };
 
   return (
-    <div className="relative">
-      <button
-        onClick={() => setIsOpen((prev) => !prev)}
-        className="flex items-center p-2 border rounded"
-      >
-        {/* <Image
+		<div className="relative">
+			<button onClick={() => setIsOpen((prev) => !prev)} className="flex items-center p-2  rounded">
+				{/* <Image
           src={localActive === 'en' ? enFlagImg : ukrainianFlagImg}
           alt={localActive === 'en' ? 'English' : 'Ukrainian'}
           width={20}
           height={20}
         /> */}
-        {localActive === "en" ? (
-          <Image src={enFlagImg} alt="English" width={30} height={30} />
-        ) : (
-          <Image
-            src={ukrainianFlagImg}
-            alt="Ukrainian"
-            width={30}
-            height={30}
-          />
-        )}
-      </button>
+				{localActive === "en" ? (
+					<Image src={enFlagImg} alt="English" width={40} height={40} />
+				) : (
+					<Image src={ukrainianFlagImg} alt="Ukrainian" width={40} height={40} />
+				)}
+			</button>
 
-      {isOpen && (
-        <div className="absolute z-10 bg-white border border-gray-300 rounded mt-2">
-          <button
-            onClick={() => onSelectChange("en")}
-            className="flex items-center p-2 w-full"
-          >
-            <Image src={enFlagImg} alt="English" width={60} height={60} />
-          </button>
-          <button
-            onClick={() => onSelectChange("ua")}
-            className="flex items-center p-2 w-full"
-          >
-            <Image
-              src={ukrainianFlagImg}
-              alt="Ukrainian"
-              width={60}
-              height={60}
-            />
-          </button>
-        </div>
-      )}
-    </div>
-  );
+			{isOpen && (
+				<div className="absolute z-10 shadow-lg rounded mt-2">
+					<button onClick={() => onSelectChange("en")} className="flex items-center p-2 w-full">
+						<Image src={enFlagImg} alt="English" width={60} height={60} />
+					</button>
+					<button onClick={() => onSelectChange("ua")} className="flex items-center p-2 w-full">
+						<Image src={ukrainianFlagImg} alt="Ukrainian" width={60} height={60} />
+					</button>
+				</div>
+			)}
+		</div>
+	);
 };
 
 export default LngSwitcher;

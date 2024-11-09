@@ -14,10 +14,8 @@ const AboutUs = () => {
   const p = useTranslations("ADV");
 
   return (
-    <div className="mt-16 w-full px-10 layout" id="aboutUs">
-      <h1 className="md:text-4xl desk:text-4xl font-bold ">
-        {t("aboutUs")}
-      </h1>
+    <div className="sm:mt-4 md:mt-16 w-full px-10 layout" id="aboutUs">
+      <h1 className="sm:text-3xl md:text-4xl desk:text-5xl font-bold text-textContacts text-center">{t('aboutUs')}</h1>
 
       <div className="flex justify-between items-center mx-auto sm:mt-2 md:mt-4 desk:mt-6 sm:flex-col md:flex-col desk:flex-row">
         <div className="sm:w-2/3 md::w-4/5 desk:w-1/3">

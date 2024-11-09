@@ -1,8 +1,8 @@
 import { useLocale, useTranslations } from "next-intl";
 import Link from "next/link";
 
-const linkStyle = "text-lg text-textContacts font-semibold rounded-md"
-const ulStyle = "absolute top-[60%] left-10 z-10 bg-bgColor px-5 py-5"
+const linkStyle = "text-lg text-textContacts font-semibold rounded-md hover:text-gray-400 ";
+const ulStyle = "absolute top-[60%] left-10 z-10 bg-bgColor px-5 py-5 shadow-2xl";
 
 const BurgerMenu = ({ isOpen, toggleClickBurger, isClose }) => {
 
