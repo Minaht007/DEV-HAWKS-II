@@ -15,14 +15,14 @@ const AboutUs = () => {
 
 
   return (
-    <div className="mt-16 w-full px-10 layout" id="aboutUs">
-      <h1 className="md:text-4xl desk:text-5xl font-bold text-textContacts">{t('aboutUs')}</h1>
+    <div className="sm:mt-4 md:mt-16 w-full px-10 layout" id="aboutUs">
+      <h1 className="sm:text-3xl md:text-4xl desk:text-5xl font-bold text-textContacts text-center">{t('aboutUs')}</h1>
 
-      <div className="flex justify-between items-center mx-auto desk:mt-20 mt-10">
-        <p className="w-[510px] sm:text-center md:text-start desk:text-start md:text-3xl desk:text-5xl font-bold leading-relaxed px-10">
+      <div className="flex sm:flex-col md:flex-row md:justify-between items-center mx-auto sm:mt-6 desk:mt-20">
+        <p className=" sm:w-full md:w-[510px] sm:text-center md:text-start desk:text-start sm:text-xl md:text-3xl desk:text-5xl font-bold leading-relaxed sm:px-0 md:px-10 sm:mb-4 md:mb-0">
         {c('sloganAboutUs')}
         </p>
-        <p className="md:w-[600px] desk:w-[710px] md:text-xl desk:text-2xl leading-normal" style={{textAlign: "justify"}}>
+        <p className="md:w-[600px] desk:w-[710px] md:text-xl desk:text-3xl leading-normal" style={{textAlign: "justify"}}>
         {c('textAboutUs')}
         </p>
       </div>
