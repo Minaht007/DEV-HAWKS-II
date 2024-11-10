@@ -1,12 +1,12 @@
 "use client"
 import { useTranslations } from "next-intl";
 
-const titleStyle = "text-5xl px-4 pt-16 text-textContacts";
+const titleStyle = "sm:text-3xl md:text-4xl desk:text-5xl px-4 pt-16 text-textContacts font-bold";
 const underTitleStyle = "text-xl font-bold py-5 px-10 text-textContacts";
 const labelStyle = "flex flex-col py-4 text-textContacts pb-2";
 const inputStyle =
   " py-2 pl-2 w-4/5 mt-1 border-2 rounded-md border-textContacts bg-secondaryBG text-textContacts";
-const blockStyle = "text-xl font-bold my-10 text-textContacts";
+const blockStyle = "text-xl font-bold sm:my-4 md:my-6 desk:my-10 text-textContacts";
 
 const Brief = () => {
 
@@ -14,20 +14,20 @@ const Brief = () => {
 
 
   return (
-    <div className="flex flex-col items-center py-16 mx-5">
+    <div className="flex flex-col items-center sm:my-4 md:my-8 desk:my-16 mx-5">
       <div>
         <h1 className={titleStyle}>
           {t('title1')}
         </h1>
       </div>
       <div>
-        <p className={underTitleStyle}>
+        <p className={underTitleStyle} style={{textAlign: "justify"}}>
         {t('title2')}
         </p>
-        <p className={underTitleStyle}>
+        <p className={underTitleStyle} style={{textAlign: "justify"}}>
         {t('title3')}
         </p>
-        <p className={underTitleStyle}>
+        <p className={underTitleStyle} style={{textAlign: "justify"}}>
         {t('title4')}
         </p>
       </div>
@@ -39,7 +39,7 @@ const Brief = () => {
         {t('label1')}
           <input
             type="text"
-            placeholder="type you name"
+            placeholder={t('getStartedPlaceholder')}
             required
             min={3}
             className={inputStyle}
