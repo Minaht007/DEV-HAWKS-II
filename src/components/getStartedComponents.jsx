@@ -14,7 +14,7 @@ const Brief = () => {
 
 
   return (
-    <div className="flex flex-col items-center py-16">
+    <div className="flex flex-col items-center py-16 mx-5">
       <div>
         <h1 className={titleStyle}>
           {t('title1')}
