@@ -21,8 +21,12 @@
     },
 
     "AboutUs": {
-        "sloganAboutUs": "Help our client achieve their business objectives",
-        "textAboutUs": "Empower your digital journey with our seasoned team, dedicated to delivering innovative solutions. From concept to execution, we're committed to driving impactful resolutions for your business's success."
+        "sloganAboutUs": "We help our clients achieve their business goals",
+        "textAboutUsFirst": "The Internet increases the potential of any business. Sites and applications are dynamic platforms that are always changing.",
+        "textAboutUsSecond": "Demands and tasks are increasing, goods and services are changing. You need help to follow and develop.",
+        "textAboutUsThird": "DAV-HAWKS - develops and implements applications that help our clients manage their business and realize its potential.",
+        "textAboutUsFour": "DEV-HAWKS works for you from the moment of conception of an idea to the moment of its implementation. You grow with us."
+
     },
 
     "Services": {
