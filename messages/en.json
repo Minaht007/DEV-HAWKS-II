@@ -228,6 +228,24 @@
         "rentLanding": "For small and middle business",
         "priceRentLanding": "from 20",
         "rentLargeBusiness": "For large business",
-        "priceRentLarge": "from 100"
+        "priceRentLarge": "from 100",
+
+        "rentTitleQuestion": "Why renting from DEV-HAWKS is the right decision?",
+       "rentScripUnderTitleOne": "Firstly:",
+       "rentScriptOne": "Usually, taking a ready-made solution, you get a set of redundant functions or a lack of functions, and their implementation will be expensive. DEV-HAWKS does everything for you, you get exactly what you need and nothing extra.",
+        
+       "rentScripUnderTitleTwo": "Secondly:",
+       "rentScriptTwoP-1": "Your design is always better. An off-the-shelf solution might have a nice design, but it's not to your taste.",
+       "rentScriptTwoP-2": "DEV-HAWKS: Makes the appearance you want to see, which will satisfy you 100%.",
+        
+       "rentScripUnderTitleThree": "Thirdly:",
+       "rentScriptThree": "Having made a decision from DEV-HAWKS for a year, you will be able to fully test it, find out what you would like to add or simplify, develop a client base... and more.",
+       
+       "rentScripUnderTitleFour": "Fourth:",
+       "rentScriptFour": "During the rental, you have the opportunity to make changes to the project. The DEV-HAWKS team implements them.",
+       
+       "conclusion": "Conclusion:",
+       "conclusionScript": "Such excellent conditions and support are only available at DEV-HAWKS. Contact DEV-HAWKS and become our partner."
+    
      }
 }

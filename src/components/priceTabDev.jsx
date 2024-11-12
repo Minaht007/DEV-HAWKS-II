@@ -9,6 +9,8 @@ const centralCellContainer = "flex flex-col items-around border-textContacts";
 const spanStyle = "py-5 px-10";
 const tabTitleStyle = "text-center text-2xl font-bold text-textContacts";
 
+const rentTextStyle = "flex flex-col justify-center  py-2 md:text-xl desk:text-2xl bg-numberBG rounded-[32px] text-center text-secondaryTextColor my-4"
+
 const PriceForTAbAndDev = () => {
   const t = useTranslations("Prices");
   const currentLocation = useLocale();
@@ -22,10 +24,14 @@ const PriceForTAbAndDev = () => {
   };
 
   return (
-    <div className=" md:my-10 desk:my-16 md:mx-10 desk:px-16">
+    <section className=" md:my-10 desk:my-16 md:mx-10 desk:px-16">
       <h1 className={titleStyle}>{t("title")}</h1>
-      <p className={underTitle} style={{textAlign: "justify"}}>{t("underTitleOne")}</p>
-      <p className={underTitle} style={{textAlign: "justify"}}>{t("underTitleTwo")}</p>
+      <p className={underTitle} style={{ textAlign: "justify" }}>
+        {t("underTitleOne")}
+      </p>
+      <p className={underTitle} style={{ textAlign: "justify" }}>
+        {t("underTitleTwo")}
+      </p>
 
       <h2 className="text-2xl text-textContacts underline mb-6 ">
         {t("tableCaption")}
@@ -104,13 +110,58 @@ const PriceForTAbAndDev = () => {
         </div>
       </div>
 
+      {/* Teblet For Rent */}
+      <div>
+        <h2 className={`${titleStyle} md:mt-10 desk:mt-16`}>
+          {t("rentTitleQuestion")}
+        </h2>
+
+        <ul>
+          <li className={rentTextStyle}>
+            <p className="text-start pl-4">
+              {t("rentScripUnderTitleOne")}
+            </p>
+            <p>{t("rentScriptOne")}</p>
+          </li>
+
+          <li className={rentTextStyle}>
+            <p className="text-start pl-4">
+              {t("rentScripUnderTitleTwo")}
+            </p>
+            <p>{t("rentScriptTwoP-1")}</p>
+            <p>{t("rentScriptTwoP-2")}</p>
+          </li>
+
+          <li className={rentTextStyle}>
+            <p className="text-start pl-4">
+              {t("rentScripUnderTitleThree")}
+            </p>
+            <p>{t("rentScriptThree")}</p>
+          </li>
+
+          <li className={rentTextStyle}>
+            <p className="text-start pl-4">
+              {t("rentScripUnderTitleFour")}
+            </p>
+            <p>{t("rentScriptFour")}</p>
+          </li>
+
+          <li className={rentTextStyle}>
+            <p className="text-start pl-4">{t("conclusion")}</p>
+            <p >{t("conclusionScript")}</p>
+          </li>
+        </ul>
+      </div>
+
+      {/* Tablet */}
+
       <div className="flex flex-col items-center md:my-10 desk:mb-16 desk:mt-28">
         <div className="flex justify-start text-start mb=6">
-           <h2 className="text-start text-2xl text-textContacts underline ">
-          {t("rentTitle")}
-        </h2> 
+          <h2 className="text-start text-2xl text-textContacts underline ">
+            {t("rentTitle")}
+          </h2>
         </div>
-        
+
         <div className="flex border-t-2 border-b-2 border-textContacts ">
           <div className="mx-10 my-2 border-r-4 border-textContacts">
             <p className={`${cellStyle} `}>
@@ -129,7 +180,7 @@ const PriceForTAbAndDev = () => {
           </p>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

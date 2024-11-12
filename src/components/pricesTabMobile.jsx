@@ -3,10 +3,12 @@ import { useLocale, useTranslations } from "next-intl";
 const titleStyle = "text-clamp text-textContacts mb-10 font-bold";
 const underTitle = "text-clamp text-textContacts mb-4";
 
+     
+const rentTextStyle = "text-textContacts text-lg bg-numberBG my-3 rounded-[16px] px-2"
+
 const PricesTabForMob = () => {
 	const t = useTranslations("Prices");
 	const currentLocation = useLocale();
-	console.log(currentLocation);
 
 	// const currency = () => {
 	//   if (currentLocation === "en") {
@@ -19,7 +21,7 @@ const PricesTabForMob = () => {
 	const currency = () => ({ en: "$", ua: "грн" }[currentLocation]);
 
 	return (
-		<div className="flex flex-col items-center min-w-[320px] max-w-[767px] px-10 my-10">
+		<section className="flex flex-col items-center min-w-[320px] max-w-[767px] px-10 my-10">
 			<h1 className={titleStyle}>{t("title")}</h1>
 			<p className={underTitle} style={{ textAlign: "justify" }}>
 				{t("underTitleOne")}
@@ -35,8 +37,8 @@ const PricesTabForMob = () => {
 
 				<thead className="flex justify-around min-w-[320px] max-w-[600px]">
 					<tr>
-						<th className="pr-20 text-center text-textContacts text-clamp">{t("tabTitleOne")}</th>
-						<th className="text-textContacts text-clamp">{t("tabTitleTwo")}</th>
+						<th className="md:pr-20 sm:w-36 text-textContacts text-clamp">{t("tabTitleOne")}</th>
+						<th className="text-textContacts text-clamp text-center">{t("tabTitleTwo")}</th>
 					</tr>
 				</thead>
 
@@ -72,6 +74,50 @@ const PricesTabForMob = () => {
 				</tbody>
 			</table>
 
+			{/* Tablet For Rent */}
+
+			<div>
+        <h2 className={`${titleStyle} md:mt-10 desk:mt-16`}>
+          {t("rentTitleQuestion")}
+        </h2>
+
+        <ul>
+          <li className={rentTextStyle}>
+            <p className="text-start pl-4 text-secondaryTextColor">
+              {t("rentScripUnderTitleOne")}
+            </p>
+            <p className="text-secondaryTextColor text-center">{t("rentScriptOne")}</p>
+          </li>
+
+          <li className={rentTextStyle}>
+            <p className="text-start pl-4 text-secondaryTextColor">
+              {t("rentScripUnderTitleTwo")}
+            </p>
+            <p className="text-secondaryTextColor text-center">{t("rentScriptTwoP-1")}</p>
+            <p className="text-secondaryTextColor text-center">{t("rentScriptTwoP-2")}</p>
+          </li>
+
+          <li className={rentTextStyle}>
+            <p className="text-start pl-4 text-secondaryTextColor">
+              {t("rentScripUnderTitleThree")}
+            </p>
+            <p className="text-secondaryTextColor text-center">{t("rentScriptThree")}</p>
+          </li>
+
+          <li className={rentTextStyle}>
+            <p className="text-start pl-4 text-secondaryTextColor">
+              {t("rentScripUnderTitleFour")}
+            </p>
+            <p className="text-secondaryTextColor text-center">{t("rentScriptFour")}</p>
+          </li>
+
+          <li className={rentTextStyle}>
+            <p className="text-start pl-4 text-secondaryTextColor">{t("conclusion")}</p>
+            <p className="text-secondaryTextColor text-center">{t("conclusionScript")}</p>
+          </li>
+        </ul>
+      </div>
+
 			<table className="mx-5 my-10">
 				<caption className="w-[320px]">
 					<h2 className="text-clamp text-textContacts underline mb-3">{t("rentTitle")}</h2>
@@ -102,7 +148,7 @@ const PricesTabForMob = () => {
 					</tr>
 				</tbody>
 			</table>
-		</div>
+		</section>
 	);
 };
 export default PricesTabForMob;
