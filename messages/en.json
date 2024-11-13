@@ -232,8 +232,9 @@
 
         "rentTitleQuestion": "Why renting from DEV-HAWKS is the right decision?",
        "rentScripUnderTitleOne": "Firstly:",
-       "rentScriptOne": "Usually, taking a ready-made solution, you get a set of redundant functions or a lack of functions, and their implementation will be expensive. DEV-HAWKS does everything for you, you get exactly what you need and nothing extra.",
-        
+       "rentScriptOne": "Usually, taking a ready-made solution, you get a set of redundant functions or a lack of functions, and their implementation will be expensive.",
+       "rentScriptOneDev": "DEV-HAWKS does everything for you, you get exactly what you need and nothing extra.", 
+
        "rentScripUnderTitleTwo": "Secondly:",
        "rentScriptTwoP-1": "Your design is always better. An off-the-shelf solution might have a nice design, but it's not to your taste.",
        "rentScriptTwoP-2": "DEV-HAWKS: Makes the appearance you want to see, which will satisfy you 100%.",

@@ -9,7 +9,7 @@ const centralCellContainer = "flex flex-col items-around border-textContacts";
 const spanStyle = "py-5 px-10";
 const tabTitleStyle = "text-center text-2xl font-bold text-textContacts";
 
-const rentTextStyle = "flex flex-col justify-center  py-2 md:text-xl desk:text-2xl bg-numberBG rounded-[32px] text-center text-secondaryTextColor my-4"
+const rentTextStyle = "flex flex-col justify-center  py-2 md:text-xl desk:text-2xl bg-numberBG rounded-[32px] text-center text-secondaryTextColor my-4 text-start"
 
 const PriceForTAbAndDev = () => {
   const t = useTranslations("Prices");
@@ -121,34 +121,35 @@ const PriceForTAbAndDev = () => {
             <p className="text-start pl-4">
               {t("rentScripUnderTitleOne")}
             </p>
-            <p>{t("rentScriptOne")}</p>
+            <p className="pl-6">{t("rentScriptOne")}</p>
+            <p className="pl-6">{t("rentScriptOneDev")}</p>
           </li>
 
           <li className={rentTextStyle}>
             <p className="text-start pl-4">
               {t("rentScripUnderTitleTwo")}
             </p>
-            <p>{t("rentScriptTwoP-1")}</p>
-            <p>{t("rentScriptTwoP-2")}</p>
+            <p className="pl-6">{t("rentScriptTwoP-1")}</p>
+            <p className="pl-6">{t("rentScriptTwoP-2")}</p>
           </li>
 
           <li className={rentTextStyle}>
             <p className="text-start pl-4">
               {t("rentScripUnderTitleThree")}
             </p>
-            <p>{t("rentScriptThree")}</p>
+            <p className="pl-6">{t("rentScriptThree")}</p>
           </li>
 
           <li className={rentTextStyle}>
             <p className="text-start pl-4">
               {t("rentScripUnderTitleFour")}
             </p>
-            <p>{t("rentScriptFour")}</p>
+            <p className="pl-6">{t("rentScriptFour")}</p>
           </li>
 
           <li className={rentTextStyle}>
             <p className="text-start pl-4">{t("conclusion")}</p>
-            <p >{t("conclusionScript")}</p>
+            <p className="pl-6">{t("conclusionScript")}</p>
           </li>
         </ul>
       </div>

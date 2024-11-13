@@ -87,6 +87,7 @@ const PricesTabForMob = () => {
               {t("rentScripUnderTitleOne")}
             </p>
             <p className="text-secondaryTextColor text-center">{t("rentScriptOne")}</p>
+			<p className="text-secondaryTextColor text-center">{t("rentScriptOneDev")}</p>
           </li>
 
           <li className={rentTextStyle}>
