@@ -1,11 +1,12 @@
 "use client";
 import { useTranslations } from "next-intl";
-import { useState } from "react";
+import { useRef, useState } from "react";
 import sendEmail from "./fetchFunction";
 
 const inputStyle =
 	" sm:w-full md:w-[290px] h-10 border-2 border-textContacts rounded-xl pl-2 text-textContacts placeholder:text-textContacts";
-const inputStyleSubject = " sm:w-full md:w-[600px] h-10 border-2 border-textContacts rounded-xl pl-2";
+const inputStyleSubject =
+	" sm:w-full md:w-[600px] h-10 border-2 border-textContacts rounded-xl pl-2";
 const textAreaStyle = "sm:w-full md:w-[600px] border-2 border-textContacts rounded-xl pl-2 pt-1 ";
 
 const ContactForm = () => {
@@ -17,6 +18,7 @@ const ContactForm = () => {
 		subject: "",
 		message: "",
 	});
+	const formRef = useRef(null);
 
 	const templateMassage = `Доброго дня, ${clientData.firstName} ${clientData.lastName} цікавить таке питання ${clientData.subject} ${clientData.message}. Контактні дані: Емейл: ${clientData.email}, телефон: ${clientData.phone}. `;
 
@@ -33,12 +35,15 @@ const ContactForm = () => {
 		await sendEmail(data);
 		setClientData({
 			firstName: "",
-            lastName: "",
-            email: "",
-            phone: "",
-            subject: "",
-            message: "",
-        });
+			lastName: "",
+			email: "",
+			phone: "",
+			subject: "",
+			message: "",
+		});
+		if (formRef.current) {
+			formRef.current.reset();
+		}
 	};
 
 	const onChangeInput = (e) => {
@@ -47,7 +52,11 @@ const ContactForm = () => {
 	};
 
 	return (
-		<form className="sm:max-w-[500px] md:max-w-[600px] mx-auto" onSubmit={handleSubmit}>
+		<form
+			className="sm:max-w-[500px] md:max-w-[600px] mx-auto"
+			onSubmit={handleSubmit}
+			ref={formRef}
+		>
 			<h1 className="text-5xl text-textContacts font-bold mb-10 text-center">Contacts</h1>
 
 			<div className="flex flex-col sm:w-full  md:justify-between">
