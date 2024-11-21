@@ -31,6 +31,11 @@ const config: Config = {
         desk: "1200px",        
       }, 
 
+      boxShadow: {  
+        'custom': '0 4px 15px rgba(0, 0, 0, 0.3), 0 2px 30px rgba(0, 0, 0, 0.2)',  
+        'light': '2px 2px 10px rgba(255, 255, 255, 0.6)', 
+      }, 
+      
     },
   },
   plugins: [],
