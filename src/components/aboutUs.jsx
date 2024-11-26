@@ -84,4 +84,4 @@ const AboutUs = () => {
 
 export default AboutUs;
 
-// ІІІ
+
