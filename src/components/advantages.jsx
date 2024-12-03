@@ -9,7 +9,7 @@ const Advantage = () => {
 
 	return (
 		<div className="flex justify-end">
-			<div className="flex   sm:flex-wrap md:flex-wrap desk:flex-row justify-between w-[85%] relative mt-[-4%] py-10 border-none rounded-l-2xl bg-[#f8fafc]">
+			<div className="flex   sm:flex-wrap md:flex-wrap desk:flex-row justify-between w-[85%] relative mt-[-4%] py-10 px-5 border-none rounded-l-2xl bg-[#f8fafc] ">
 				<div className={`${divStyle} w-full sm:w-1/2 md:w-1/2 desk:w-auto`}>
 					<div>
 						<svg className={svgStyle}>
