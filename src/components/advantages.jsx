@@ -1,6 +1,8 @@
 import { useTranslations } from "next-intl";
 
-const svgStyle = "sm:w-8 sm:h-8 md:w-10 md:h-10 desk:w-16 desk:h-16 md:mx-2 md:my-2";
+// import Icons from "../../public/img/icons/symbol-defs.svg"
+
+const svgStyle = "sm:w-8 sm:h-8 md:w-10 md:h-10 desk:w-16 desk:h-16 md:mx-2 md:my-2 fill-[#0c4a6e] z-10";
 const textStyle = "sm:text-center md:text-xl desk:text-2xl font-bold px-1 md:text-start  mb-4";
 const divStyle = "flex flex-col items-center justify-between w-full desk:w-auto";
 
@@ -15,9 +17,9 @@ const Advantage = () => {
 						<svg className={svgStyle}>
 							<use
 								xlinkHref="/img/icons/symbol-defs.svg#icon-bestPerfomens"
-								className="fill-[#0c4a6e]"
+								className="fill-[#0c4a6e]"   
 							/>
-						</svg>
+						</svg >
 					</div>
 					<p className={textStyle}>{t("adv1")}</p>
 				</div>

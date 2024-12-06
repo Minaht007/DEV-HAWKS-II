@@ -61,7 +61,7 @@ const Header = () => {
 				<Link className={linkStyle} href={`/${currentLocation}/mainPage#home`}>
 					{t("home")}
 				</Link>
-				<Link className={linkStyle} href={`/${currentLocation}/mainPage#aboutUs`}>
+				<Link className={linkStyle} href={`/${currentLocation}/forExamplePage`}>
 					{t("aboutUs")}
 				</Link>
 				<Link className={linkStyle} href={`/${currentLocation}/mainPage#services`}>

@@ -1,252 +1,281 @@
 {
-    "Header": {
-        "home": "Home",
-        "aboutUs": "About Us",
-        "services": "Services",
-        "price": "Price",
-        "contact": "Contacts"
-    },
-    
-    "Hero": {
-        "title": "Make your business online",
-        "slogan1": "Grow you Business",
-        "slogan2": "with DEV HAWKS"
-    },
+  "Header": {
+    "home": "Home",
+    "aboutUs": "Samples",
+    "services": "Services",
+    "price": "Price",
+    "contact": "Contacts"
+  },
 
-    "ADV": {
-        "adv1": "Best Performance",
-        "adv2": "On time delivery",
-        "adv3": "100% Satisfaction",
-        "adv4": "Experienced "
-    },
+  "Hero": {
+    "title": "Make your business online",
+    "slogan1": "Grow you Business",
+    "slogan2": "with DEV HAWKS"
+  },
 
-    "AboutUs": {
-        "sloganAboutUs": "We help our clients achieve their business goals",
-        "textAboutUsFirst": "The Internet increases the potential of any business. Sites and applications are dynamic platforms that are always changing.",
-        "textAboutUsSecond": "Demands and tasks are increasing, goods and services are changing. You need help to follow and develop.",
-        "textAboutUsThird": "DAV-HAWKS - develops and implements applications that help our clients manage their business and realize its potential.",
-        "textAboutUsFour": "DEV-HAWKS works for you from the moment of conception of an idea to the moment of its implementation. You grow with us."
+  "ADV": {
+    "adv1": "Best Performance",
+    "adv2": "On time delivery",
+    "adv3": "100% Satisfaction",
+    "adv4": "Experienced "
+  },
 
-    },
+  "AboutUs": {
+    "sloganAboutUs": "We help our clients achieve their business goals",
+    "textAboutUsFirst": "The Internet increases the potential of any business. Sites and applications are dynamic platforms that are always changing.",
+    "textAboutUsSecond": "Demands and tasks are increasing, goods and services are changing. You need help to follow and develop.",
+    "textAboutUsThird": "DAV-HAWKS - develops and implements applications that help our clients manage their business and realize its potential.",
+    "textAboutUsFour": "DEV-HAWKS works for you from the moment of conception of an idea to the moment of its implementation. You grow with us."
+  },
 
-    "Services": {
-        "title": "Our Services",
-        "underTitle": "We Offer Professional Services For Your Business",
-        "underTitleSlogan": "Unlock the full potential of your business with our comprehensive suite of professional services. From strategic consulting to cutting-edge solutions, we empower your growth and success with tailored expertise and unwavering commitment to excellence.",
-        "serviceCard1": "Web Development service",
-        "serviceCard2": "Web Programming  Service",
-        "serviceCard3": "Consultation Service",
-        "serviceCardBtm": "Learn More",
-        "serviceTitle2": "Why Choose us",
-        "serviceUnderTitle2": "We Have an Outstanding Digital Experience",
-        "serviceTextOne": "Experience excellence in the digital realm with our exceptional services. From innovative design to seamless navigation, we craft immersive experiences that captivate audiences and drive meaningful engagement",
-        "servicePointOne": "Best Performance",
-        "serviceTextThree": "Unrivaled excellence in performance, setting the standard for exceptional quality and optimal results.",
-        "servicePointTwo": "Dedicated Team Members",
-        "serviceTextFour": "Committed professionals driving success through expertise, collaboration, and unwavering dedication to achieving your goals",
-        "servicePointThree": "On Time delivery",
-        "serviceTextFive": "Reliable assistance whenever you need it, ensuring seamless operations and peace of mind for your business"
-    },
+  "Services": {
+    "title": "Our Services",
+    "underTitle": "We Offer Professional Services For Your Business",
+    "underTitleSlogan": "Unlock the full potential of your business with our comprehensive suite of professional services. From strategic consulting to cutting-edge solutions, we empower your growth and success with tailored expertise and unwavering commitment to excellence.",
+    "serviceCard1": "Web Development service",
+    "serviceCard2": "Web Programming  Service",
+    "serviceCard3": "Consultation Service",
+    "serviceCardBtm": "Learn More",
+    "serviceTitle2": "Why Choose us",
+    "serviceUnderTitle2": "We Have an Outstanding Digital Experience",
+    "serviceTextOne": "Experience excellence in the digital realm with our exceptional services. From innovative design to seamless navigation, we craft immersive experiences that captivate audiences and drive meaningful engagement",
+    "servicePointOne": "Best Performance",
+    "serviceTextThree": "Unrivaled excellence in performance, setting the standard for exceptional quality and optimal results.",
+    "servicePointTwo": "Dedicated Team Members",
+    "serviceTextFour": "Committed professionals driving success through expertise, collaboration, and unwavering dedication to achieving your goals",
+    "servicePointThree": "On Time delivery",
+    "serviceTextFive": "Reliable assistance whenever you need it, ensuring seamless operations and peace of mind for your business"
+  },
 
-    "Team": {
-        "title": "Our Team",
-        "underTitle": "Our Skilled Team of Experts",
-        "text": "Meet our proficient team of seasoned professionals, dedicated to delivering exceptional results through their expertise, innovation, and commitment to excellence in every project they undertake."
-    },
+  "Team": {
+    "title": "Our Team",
+    "underTitle": "Our Skilled Team of Experts",
+    "text": "Meet our proficient team of seasoned professionals, dedicated to delivering exceptional results through their expertise, innovation, and commitment to excellence in every project they undertake.",
+    "btmText": "Samples"
+  },
 
-    "ContactForm": {
-        "firstName": "name",
-        "lastName": "last name",        
-        "subject": "Subject*",
-        "message": "Message*",
-        "contactBtm": "Send message"
-    },
+  "ContactForm": {
+    "firstName": "name",
+    "lastName": "last name",
+    "subject": "Subject*",
+    "message": "Message*",
+    "contactBtm": "Send message"
+  },
 
-    "Footer": {
-        "text": "Specializes in custom software development, programming, and consulting services tailored for local and community-based clients. Elevate your digital presence with our innovative solutions and personalized approach.",
-        "footerPlaceholder": "Enter your email address",
-        "footerBtm": "Send message"
-    },
+  "Footer": {
+    "text": "Specializes in custom software development, programming, and consulting services tailored for local and community-based clients. Elevate your digital presence with our innovative solutions and personalized approach.",
+    "footerPlaceholder": "Enter your email address",
+    "footerBtm": "Send message"
+  },
 
-    "GetStarted": {
-        "title1": "Please answer the questions and we can better understand the task.",
-        "title2": "When filling out the brief, please provide detailed answers. It is important for us to hear your personal opinions and needs. Write in simple language, as you understand the questions.",
-        "title3": "The authors of the answers should be decision makers.",
-        "title4": " We are ready to sign a confidentiality agreement if this is necessary for the accurate filling out of the brief.",
-        
-        "label1": "Name",
-        "label2": "Name of your company",
-        "label3": "Tell us more about the business. (Describe in detail the brand/product/service for which the website will be created.)",
-        "getStartedPlaceholder": "Your answer",
-        "label4": "Tell us about the competitive advantages of your brand, product or service.",
-        "label5": "Tell us about your brand and its advantages",
-        "label6-1": "List your key competitors, preferably with links to their sites.",
-        "label6-2": "Describe what you like and don't like about competitors' sites?",
-        "label7": "Tasks of the site (what role should it play)",
-        "label8": "Do you have a website now? What do you like and dislike about it?",
-        "label10": "Who is your target audience?",
-        "label11": "If there are additional site goals, specify them:",
-        "label12": "List the main items of the site's navigation menu",
-        "label13": "Tell us more about the business. (Describe in detail the brand/product/service for which the website will be created.)",
-        "label14": "What main sections should the site contain?",
-        "label15": "Specify the key services of the site - application forms, etc.",
-        "label16": "What functions should be implemented on the main page?",
-        "label17": "What general features would you like to include in the site? (For example, filling the shopping cart, subscribing to the newsletter, and so on.)",      
-        "label18": "Do you need to connect analytics and set up conversion tracking from the site.",
-        "label19": "What other requirements do you have for the site?",
-        "label20": "Do you have a domain for your site or do you need to buy one?",
+  "GetStarted": {
+    "title1": "Please answer the questions and we can better understand the task.",
+    "title2": "When filling out the brief, please provide detailed answers. It is important for us to hear your personal opinions and needs. Write in simple language, as you understand the questions.",
+    "title3": "The authors of the answers should be decision makers.",
+    "title4": " We are ready to sign a confidentiality agreement if this is necessary for the accurate filling out of the brief.",
 
-        "blockTreeTitle": "Additional information",
-        "blockTreeUnderTitle": "What is the approximate frequency of updating information on the site?",
-        "check-1": "once a week",
-        "check-2": "once a month",
-        "check-3": "Once every six months",
-        "check-4": "once a year",
-        "check-5": "other",
-        "blockThreeInputPlaceholder": "type your variant",
-        "label-21": "Does your upcoming website need technical support and support?",
-        "check-6": "Yes",
-        "check-7": "No",
-        "label-22": "If you have additional information that will be useful for us, please tell us."
-     },
+    "label1": "Name",
+    "label2": "Name of your company",
+    "label3": "Tell us more about the business. (Describe in detail the brand/product/service for which the website will be created.)",
+    "getStartedPlaceholder": "Your answer",
+    "label4": "Tell us about the competitive advantages of your brand, product or service.",
+    "label5": "Tell us about your brand and its advantages",
+    "label6-1": "List your key competitors, preferably with links to their sites.",
+    "label6-2": "Describe what you like and don't like about competitors' sites?",
+    "label7": "Tasks of the site (what role should it play)",
+    "label8": "Do you have a website now? What do you like and dislike about it?",
+    "label10": "Who is your target audience?",
+    "label11": "If there are additional site goals, specify them:",
+    "label12": "List the main items of the site's navigation menu",
+    "label13": "Tell us more about the business. (Describe in detail the brand/product/service for which the website will be created.)",
+    "label14": "What main sections should the site contain?",
+    "label15": "Specify the key services of the site - application forms, etc.",
+    "label16": "What functions should be implemented on the main page?",
+    "label17": "What general features would you like to include in the site? (For example, filling the shopping cart, subscribing to the newsletter, and so on.)",
+    "label18": "Do you need to connect analytics and set up conversion tracking from the site.",
+    "label19": "What other requirements do you have for the site?",
+    "label20": "Do you have a domain for your site or do you need to buy one?",
 
-     "WDS": {
-        "underTitle": "This article will help you understand better, which application is more suitable for you.",
-        "scriptOne": "Having an online presence, either on a website or web app, is important for any business in today's digital climate. Most business owners would say it's a necessity.",
-        "scriptTwo": "According to many studies, it takes less than a second for viewers to form an opinion about your website. They expect a fast, well-designed site that provides a good user experience. It encourages them to stay longer and could even convince them to do business with your company.",
-        "underTitleTwo": "Web application and website: what is the difference?",
-        "scriptThree": " Many people wonder — what is the difference between a website and an application? At first glance, these two concepts are the same, but the differences lie in the internal work with them and the creation of the project itself.",
-        "scriptFour": "This is one or more web pages that show the user informational content: articles, videos, pictures, music. As a rule, this data is static and the user cannot interact with it, that is, change anything on the page. Usually, a site is used to demonstrate products, talk about a brand, its history and achievements, publish useful cases and articles. Often, authentication is not required here, which means that all information is available to every user.",
-        "scriptFive": "A full-fledged program with advanced functionality. In fact, this is the same site, only with interactive elements that solve several client problems at once. Here he will already be able to interact with the content and carry out various manipulations, within acceptable limits: add information, communicate with other users, order goods, pay for purchases, add or remove products from the basket. Therefore, the important point here is to register yourself as a user, and this is much more common than with websites.",
-        "underTitleThree": "Types of web applications",
-        "scriptSix": "Now that we have figured out what a web application is, how it works and how it differs from a website, let's look at their types from a technical classification point of view:",
-        "scriptSeven": "is a single-page interactive application that does not require reloading the main page during its operation. Unlike traditional web applications, they work faster, since all the application logic is implemented in the browser, not on the server.",
-        "underTitleFour": "User-friendly interface.",
-        "scriptEight": "It is easier for the user to navigate on one page, when there is only one option for movement - down. No additional links will distract his attention and will not allow him to get confused inside the program.",
-        "underTitleFive": "High speed.",
-        "scriptNine": "During operation, the application does not update the entire page, but only loads the content the user needs. Therefore, it works much faster than multi-page sites - a request to the server is made once, after which the information on the page is simply supplemented.",
-        "underTitleSix": "Data caching.",
-        "scriptTen": "The cache works in the same way - it is enough to contact the server once and it will save all the user's data. Now the client will be able to work in the application even in offline mode.",
-        "underTitleSeven": "Data caching.",
-        "scriptEleven": "Single-page applications have only one URL that does not change during operation, unlike multi-page applications. Therefore, the developer can bind only one search query to it. Such sites are difficult to optimize for search engines due to the fact that the search bot simply will not find additionally loaded information.",
-       
-        "textNegative": "Negative:",
-        "textPositive": "Positive:",
+    "blockTreeTitle": "Additional information",
+    "blockTreeUnderTitle": "What is the approximate frequency of updating information on the site?",
+    "check-1": "once a week",
+    "check-2": "once a month",
+    "check-3": "Once every six months",
+    "check-4": "once a year",
+    "check-5": "other",
+    "blockThreeInputPlaceholder": "type your variant",
+    "label-21": "Does your upcoming website need technical support and support?",
+    "check-6": "Yes",
+    "check-7": "No",
+    "label-22": "If you have additional information that will be useful for us, please tell us."
+  },
 
-        "underTitleEight": "Poor security",
-        "scriptTwelve":"Single-page applications are more susceptible to attack by hackers who steal user data using cross-site scripts. They inject them from the client side and can easily obtain confidential information. MPA and PWA, which we will consider below, have much better security settings.",
-       
-        "whenUse": "When to use:",
-        
-        "scriptThirteen": "Suitable for creating social networks, various dynamic platforms with a small amount of information and no great need for SEO keys.",
+  "WDS": {
+    "underTitle": "This article will help you understand better, which application is more suitable for you.",
+    "scriptOne": "Having an online presence, either on a website or web app, is important for any business in today's digital climate. Most business owners would say it's a necessity.",
+    "scriptTwo": "According to many studies, it takes less than a second for viewers to form an opinion about your website. They expect a fast, well-designed site that provides a good user experience. It encourages them to stay longer and could even convince them to do business with your company.",
+    "underTitleTwo": "Web application and website: what is the difference?",
+    "scriptThree": " Many people wonder — what is the difference between a website and an application? At first glance, these two concepts are the same, but the differences lie in the internal work with them and the creation of the project itself.",
+    "scriptFour": "This is one or more web pages that show the user informational content: articles, videos, pictures, music. As a rule, this data is static and the user cannot interact with it, that is, change anything on the page. Usually, a site is used to demonstrate products, talk about a brand, its history and achievements, publish useful cases and articles. Often, authentication is not required here, which means that all information is available to every user.",
+    "scriptFive": "A full-fledged program with advanced functionality. In fact, this is the same site, only with interactive elements that solve several client problems at once. Here he will already be able to interact with the content and carry out various manipulations, within acceptable limits: add information, communicate with other users, order goods, pay for purchases, add or remove products from the basket. Therefore, the important point here is to register yourself as a user, and this is much more common than with websites.",
+    "underTitleThree": "Types of web applications",
+    "scriptSix": "Now that we have figured out what a web application is, how it works and how it differs from a website, let's look at their types from a technical classification point of view:",
+    "scriptSeven": "is a single-page interactive application that does not require reloading the main page during its operation. Unlike traditional web applications, they work faster, since all the application logic is implemented in the browser, not on the server.",
+    "underTitleFour": "User-friendly interface.",
+    "scriptEight": "It is easier for the user to navigate on one page, when there is only one option for movement - down. No additional links will distract his attention and will not allow him to get confused inside the program.",
+    "underTitleFive": "High speed.",
+    "scriptNine": "During operation, the application does not update the entire page, but only loads the content the user needs. Therefore, it works much faster than multi-page sites - a request to the server is made once, after which the information on the page is simply supplemented.",
+    "underTitleSix": "Data caching.",
+    "scriptTen": "The cache works in the same way - it is enough to contact the server once and it will save all the user's data. Now the client will be able to work in the application even in offline mode.",
+    "underTitleSeven": "Data caching.",
+    "scriptEleven": "Single-page applications have only one URL that does not change during operation, unlike multi-page applications. Therefore, the developer can bind only one search query to it. Such sites are difficult to optimize for search engines due to the fact that the search bot simply will not find additionally loaded information.",
 
-        "block 2": "______________________________________________________________",
-        "scriptFourteen": "is a multi-page web application. It allows the user to switch between individual pages when making a request. Such resources, as a rule, have a more complex interface and a large number of additional links. With each new request, for example, when paying for a product, the user will open a new page.",
-        "underTitleNine": "Excellent SEO.",
-        "script": "Unlike SPA, each page of MPA has its own URL, which makes it possible to perfectly control user SEO requests - for each of them, the developer can add a unique key and meta tags.",
-        "underTitleTen": "Unlimited scalability.",
-        "scriptSixteen": "MPA does not limit you in the number of pages you can create and the information you need to place on it. Unlike SPA, you can use many functions on one page. Therefore, if your goal is to provide more opportunities for the client, choose MPA.",
-        "underTitleEleven": "Low speed.",
-        "scriptSeventeen": "With each interaction with the application, the server reloads and updates all resources - HTML, CSS, scripts and all page data. Therefore, the response time to a request increases, which can negatively affect the performance of the application.",
-        "underTitleTwelve": "More complex development.",
-        "scriptEighteen": "When creating such an application, a full-fledged development of the server and front-end parts of the program and the use of frameworks for the external and internal interface is required. All this takes much more time, compared to creating an SPA.",
+    "textNegative": "Negative:",
+    "textPositive": "Positive:",
 
-        "scriptNineteen": "is a progressive web application. It is developed using special technologies and can work without an Internet connection. Such applications are available on all devices and adapt to any screen width of a phone or computer. They can be installed on the main screen of your smartphone, send notifications and use it as a full-fledged application.",
-        "underTitleThirteen": "Fast development.",
-        "scriptTwenty": "PWA development takes less time than creating native applications, so it is more accessible.",
-        "underTitleFourteen": "Optional installation.",
-        "scriptTwentyOne": "The application can be used directly through the browser, without downloading it from the app store. This means that during development, you will not need to take into account their rules and adjust the program to the standard.",
-        "underTitleFifteen": "Many devices.",
-        "scriptTwentyTwo": "PWA is available in the browser on computers, phones and tablets, which significantly improves the user experience.",
-        "underTitleSixteen": "Offline mode.",
-        "scriptTwentyThree": " Users do not need to download the entire application every time - it can partially work offline.",
-        "underTitleSeventeen": "Low performance.",
-        "scriptTwentyFour": "PWA is inferior in performance to native applications.",
-        "underTitleEighteen": "No access to app stores.",
-        "scriptTwentyFive": "Before adding the app icon to your phone screen, the user must first visit this website.",
-        "scriptTwentySix": " Suitable for large network companies to control the work system, increase customer loyalty and work on brand recognition, services for the provision of services, businesses to create online courses.",
-        "underTitleNineteen": "Web applications for business",
-        "scriptTwentySeven": "Used to automate company sales and interaction with clients. With such a system, you can increase sales, optimize marketing, improve customer service, set up and control business processes, analyze the results of your activities.",
-        "underTitleTwenty": "E-commerce systems.",
-        "scriptTwentyEight": "Systems for electronic online transactions. With their help, users make purchases, sell goods, transfer funds without the participation of third parties. E-commerce includes: online stores, marketplaces, courier services, b2b services and platforms.",
-        "scriptTwentyNine": "Used to manage business processes in the company: from the sales department to accounting. With its help, you can track the performance of each department and set appropriate tasks to improve it.",
-        "underTitleTwentyOne": "Corporate portals.",
-        "scriptThirty": "Systems for electronic online transactions. With their help, users make purchases, sell goods, transfer funds without the participation of third parties. E-commerce includes: online stores, marketplaces, courier services, b2b services and platforms.",
-        "downText":"We hope you found it interesting and useful."        
-     },
+    "underTitleEight": "Poor security",
+    "scriptTwelve": "Single-page applications are more susceptible to attack by hackers who steal user data using cross-site scripts. They inject them from the client side and can easily obtain confidential information. MPA and PWA, which we will consider below, have much better security settings.",
 
-     "WPSComponent": {
-        "title": "WEB PROGRAMMING SERVICE",
-        "introduction": "In this article we will show the stages of web application development",
-        "paragraph-1": "To develop a turnkey web application, you need a team of professionals with whom you will be comfortable communicating and making suggestions during the development process and after it.",
-        "paragraph-2": " Once you have selected a team, we begin development.",
-        "step-1": "Evaluation and analytics",
-        "paragraph-3": "Our team carefully studies the idea and options for achieving your goals. After that, the manager provides you with a detailed assessment of the project, taking into account all the functions and deadlines for its implementation, and the analyst helps to accurately estimate the deadlines and cost of the work, create a detailed plan for each stage of development. Thus, you will always be aware of what exactly we are working on now and what to expect from each stage of work.",
-        "step-2": "Design",
-        "paragraph-4": "We select a color scheme and develop a corporate style for the web application. At this stage, we form the appearance of the product elements taking into account all the requirements and features of your users' perception.",
-        "step-3": "Creating a prototype",
-        "paragraph-5": "After evaluation and analysis, the team starts creating a prototype - a rough version of the future web application. With its help, we will demonstrate to you the basic version of the project and how the user will be able to interact with it.",
-        "step-4": "Development and testing",
-        "paragraph-6": "The main part of the development team&apos;s work, where we write code and implement the necessary functions, is creating all the pages of your application in compliance with the logic and main goal of the project. At each stage, the application is tested - it is important to make sure that all elements work stably and perform their main functions.",
-        "step-5": "Support",
-        "paragraph-7": " Once the application has successfully passed the test and entered the market, we support it, refine existing functions or add new ones based on your business objectives and analysis of the effectiveness of user interaction with the site."
-     },
+    "whenUse": "When to use:",
 
-     "ContactUs": {
-        "slogan": "Leave your question and contacts and we are answer in nearest time"
-     },
+    "scriptThirteen": "Suitable for creating social networks, various dynamic platforms with a small amount of information and no great need for SEO keys.",
 
-     "Prices": {
-        "title": "We offer not only the development of web applications for you, but also their rental.",
-        "underTitleOne": "You are not sure if you need a website, or is creating your own web application too expensive at that moment? We offer a solution:",
-        "underTitleTwo": "We will implement your idea and you will be able to use the application by renting it.",
-        
-        "tableCaption": "Cost of turnkey production:",
+    "block 2": "______________________________________________________________",
+    "scriptFourteen": "is a multi-page web application. It allows the user to switch between individual pages when making a request. Such resources, as a rule, have a more complex interface and a large number of additional links. With each new request, for example, when paying for a product, the user will open a new page.",
+    "underTitleNine": "Excellent SEO.",
+    "script": "Unlike SPA, each page of MPA has its own URL, which makes it possible to perfectly control user SEO requests - for each of them, the developer can add a unique key and meta tags.",
+    "underTitleTen": "Unlimited scalability.",
+    "scriptSixteen": "MPA does not limit you in the number of pages you can create and the information you need to place on it. Unlike SPA, you can use many functions on one page. Therefore, if your goal is to provide more opportunities for the client, choose MPA.",
+    "underTitleEleven": "Low speed.",
+    "scriptSeventeen": "With each interaction with the application, the server reloads and updates all resources - HTML, CSS, scripts and all page data. Therefore, the response time to a request increases, which can negatively affect the performance of the application.",
+    "underTitleTwelve": "More complex development.",
+    "scriptEighteen": "When creating such an application, a full-fledged development of the server and front-end parts of the program and the use of frameworks for the external and internal interface is required. All this takes much more time, compared to creating an SPA.",
 
-        "tabTitleOne": "Type of Application",
-        "tabTitleTwo": "Prices",
-        "tabTitleThree": "Lead time",
+    "scriptNineteen": "is a progressive web application. It is developed using special technologies and can work without an Internet connection. Such applications are available on all devices and adapt to any screen width of a phone or computer. They can be installed on the main screen of your smartphone, send notifications and use it as a full-fledged application.",
+    "underTitleThirteen": "Fast development.",
+    "scriptTwenty": "PWA development takes less time than creating native applications, so it is more accessible.",
+    "underTitleFourteen": "Optional installation.",
+    "scriptTwentyOne": "The application can be used directly through the browser, without downloading it from the app store. This means that during development, you will not need to take into account their rules and adjust the program to the standard.",
+    "underTitleFifteen": "Many devices.",
+    "scriptTwentyTwo": "PWA is available in the browser on computers, phones and tablets, which significantly improves the user experience.",
+    "underTitleSixteen": "Offline mode.",
+    "scriptTwentyThree": " Users do not need to download the entire application every time - it can partially work offline.",
+    "underTitleSeventeen": "Low performance.",
+    "scriptTwentyFour": "PWA is inferior in performance to native applications.",
+    "underTitleEighteen": "No access to app stores.",
+    "scriptTwentyFive": "Before adding the app icon to your phone screen, the user must first visit this website.",
+    "scriptTwentySix": " Suitable for large network companies to control the work system, increase customer loyalty and work on brand recognition, services for the provision of services, businesses to create online courses.",
+    "underTitleNineteen": "Web applications for business",
+    "scriptTwentySeven": "Used to automate company sales and interaction with clients. With such a system, you can increase sales, optimize marketing, improve customer service, set up and control business processes, analyze the results of your activities.",
+    "underTitleTwenty": "E-commerce systems.",
+    "scriptTwentyEight": "Systems for electronic online transactions. With their help, users make purchases, sell goods, transfer funds without the participation of third parties. E-commerce includes: online stores, marketplaces, courier services, b2b services and platforms.",
+    "scriptTwentyNine": "Used to manage business processes in the company: from the sales department to accounting. With its help, you can track the performance of each department and set appropriate tasks to improve it.",
+    "underTitleTwentyOne": "Corporate portals.",
+    "scriptThirty": "Systems for electronic online transactions. With their help, users make purchases, sell goods, transfer funds without the participation of third parties. E-commerce includes: online stores, marketplaces, courier services, b2b services and platforms.",
+    "downText": "We hope you found it interesting and useful."
+  },
 
-        "typeApplicationLanding": "Landing Page",
-        "typeApplicationSmall": "For small business",
-        "typeApplicationMiddle": "For middle business",
-        "typeApplicationLarge": "For large business",
+  "WPSComponent": {
+    "title": "WEB PROGRAMMING SERVICE",
+    "introduction": "In this article we will show the stages of web application development",
+    "paragraph-1": "To develop a turnkey web application, you need a team of professionals with whom you will be comfortable communicating and making suggestions during the development process and after it.",
+    "paragraph-2": " Once you have selected a team, we begin development.",
+    "step-1": "Evaluation and analytics",
+    "paragraph-3": "Our team carefully studies the idea and options for achieving your goals. After that, the manager provides you with a detailed assessment of the project, taking into account all the functions and deadlines for its implementation, and the analyst helps to accurately estimate the deadlines and cost of the work, create a detailed plan for each stage of development. Thus, you will always be aware of what exactly we are working on now and what to expect from each stage of work.",
+    "step-2": "Design",
+    "paragraph-4": "We select a color scheme and develop a corporate style for the web application. At this stage, we form the appearance of the product elements taking into account all the requirements and features of your users' perception.",
+    "step-3": "Creating a prototype",
+    "paragraph-5": "After evaluation and analysis, the team starts creating a prototype - a rough version of the future web application. With its help, we will demonstrate to you the basic version of the project and how the user will be able to interact with it.",
+    "step-4": "Development and testing",
+    "paragraph-6": "The main part of the development team&apos;s work, where we write code and implement the necessary functions, is creating all the pages of your application in compliance with the logic and main goal of the project. At each stage, the application is tested - it is important to make sure that all elements work stably and perform their main functions.",
+    "step-5": "Support",
+    "paragraph-7": " Once the application has successfully passed the test and entered the market, we support it, refine existing functions or add new ones based on your business objectives and analysis of the effectiveness of user interaction with the site."
+  },
 
-        "typeApplicationMobVersion": "",
+  "ContactUs": {
+    "slogan": "Leave your question and contacts and we are answer in nearest time"
+  },
 
-        "pricesLanding": "from 100 ",
-        "pricesSmall": "from 200 ",
-        "pricesMiddle": "from 500 ",
-        "pricesLarge": "from 1500 ",
+  "Prices": {
+    "title": "We offer not only the development of web applications for you, but also their rental.",
+    "underTitleOne": "You are not sure if you need a website, or is creating your own web application too expensive at that moment? We offer a solution:",
+    "underTitleTwo": "We will implement your idea and you will be able to use the application by renting it.",
 
-        "leadTimeLanding": "from 3 working days",
-        "leadTimeSmall": "from 1 to 3 month",
-        "leadTimeMiddle": "from 3 to 6 month",
-        "leadTimeLarge": "from 6 month",
+    "tableCaption": "Cost of turnkey production:",
 
-        "rentTitle": "The cost of website development with subsequent rental",
-        "rentLanding": "For small and middle business",
-        "priceRentLanding": "from 20",
-        "rentLargeBusiness": "For large business",
-        "priceRentLarge": "from 100",
+    "tabTitleOne": "Type of Application",
+    "tabTitleTwo": "Prices",
+    "tabTitleThree": "Lead time",
 
-        "rentTitleQuestion": "Why renting from DEV-HAWKS is the right decision?",
-       "rentScripUnderTitleOne": "Firstly:",
-       "rentScriptOne": "Usually, taking a ready-made solution, you get a set of redundant functions or a lack of functions, and their implementation will be expensive.",
-       "rentScriptOneDev": "DEV-HAWKS does everything for you, you get exactly what you need and nothing extra.", 
+    "typeApplicationLanding": "Landing Page",
+    "typeApplicationSmall": "For small business",
+    "typeApplicationMiddle": "For middle business",
+    "typeApplicationLarge": "For large business",
 
-       "rentScripUnderTitleTwo": "Secondly:",
-       "rentScriptTwoP-1": "Your design is always better. An off-the-shelf solution might have a nice design, but it's not to your taste.",
-       "rentScriptTwoP-2": "DEV-HAWKS: Makes the appearance you want to see, which will satisfy you 100%.",
-        
-       "rentScripUnderTitleThree": "Thirdly:",
-       "rentScriptThree": "Having made a decision from DEV-HAWKS for a year, you will be able to fully test it, find out what you would like to add or simplify, develop a client base... and more.",
-       
-       "rentScripUnderTitleFour": "Fourth:",
-       "rentScriptFour": "During the rental, you have the opportunity to make changes to the project. The DEV-HAWKS team implements them.",
-       
-       "conclusion": "Conclusion:",
-       "conclusionScript": "Such excellent conditions and support are only available at DEV-HAWKS. Contact DEV-HAWKS and become our partner."
-    
-     }
+    "typeApplicationMobVersion": "",
+
+    "pricesLanding": "from 100 ",
+    "pricesSmall": "from 200 ",
+    "pricesMiddle": "from 500 ",
+    "pricesLarge": "from 1500 ",
+
+    "leadTimeLanding": "from 3 working days",
+    "leadTimeSmall": "from 1 to 3 month",
+    "leadTimeMiddle": "from 3 to 6 month",
+    "leadTimeLarge": "from 6 month",
+
+    "rentTitle": "The cost of website development with subsequent rental",
+    "rentLanding": "For small and middle business",
+    "priceRentLanding": "from 20",
+    "rentLargeBusiness": "For large business",
+    "priceRentLarge": "from 100",
+
+    "rentTitleQuestion": "Why renting from DEV-HAWKS is the right decision?",
+    "rentScripUnderTitleOne": "Firstly:",
+    "rentScriptOne": "Usually, taking a ready-made solution, you get a set of redundant functions or a lack of functions, and their implementation will be expensive.",
+    "rentScriptOneDev": "DEV-HAWKS does everything for you, you get exactly what you need and nothing extra.",
+
+    "rentScripUnderTitleTwo": "Secondly:",
+    "rentScriptTwoP-1": "Your design is always better. An off-the-shelf solution might have a nice design, but it's not to your taste.",
+    "rentScriptTwoP-2": "DEV-HAWKS: Makes the appearance you want to see, which will satisfy you 100%.",
+
+    "rentScripUnderTitleThree": "Thirdly:",
+    "rentScriptThree": "Having made a decision from DEV-HAWKS for a year, you will be able to fully test it, find out what you would like to add or simplify, develop a client base... and more.",
+
+    "rentScripUnderTitleFour": "Fourth:",
+    "rentScriptFour": "During the rental, you have the opportunity to make changes to the project. The DEV-HAWKS team implements them.",
+
+    "conclusion": "Conclusion:",
+    "conclusionScript": "Such excellent conditions and support are only available at DEV-HAWKS. Contact DEV-HAWKS and become our partner."
+  },
+
+  "For example": {
+    "About": "About product",
+    "nameProductOne": "CAR SALES WEBSITE",
+    "productPointOne": "Custom web design and development 6 pages",
+    "productPointTwo": "Multilingual",
+    "productPointThree": "Responsive design",
+    "productPointFour": "Data collection questionnaire",
+    "productPointFive": "Built-in calculator",
+
+    "nameProductTwo": "BUSINESS CARD WEBSITE",
+    "productPointSix": "Custom web design and development 11 pages",
+    "productPointSeven": "Admin panel for goods",
+    "productPointEight": "Integration with chat bot",
+    "productPointNine": "Integration with email",
+    "productPointTen": "Slider for product cards",
+
+    "nameProductThree": "ON-LINE STORE",
+    "productPointEleven": "Custom web design and development more than 15 pages",
+    "productPointTwelve": "Admin panel for goods, orders, clients...ets",
+    "productPointThirteen": "Integration with chat bot",
+    "productPointFourteen": "Integration with email",
+    "productPointFifteen": "Connecting a payment system",
+    "productPointSixteen": "Slider",
+
+    "btmPurchase": "Price for purchase:",
+    "btmRent": "Price for rent",
+    "current": "doll",
+    "currentRent": "doll/month"
+  }
 }

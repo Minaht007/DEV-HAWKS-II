@@ -1,7 +1,11 @@
+"use client"
+
 import Image from "next/image";
 import Logo from "../../public/img/logo/dev_hawks_done-04.png";
 import LogoTabAndMobil from "../../public/img/logo/dev_hawks_done-03.png";
 import { useTranslations } from "next-intl";
+
+import BTM from "./btm"
 
 const OurTeam = () => {
   const t = useTranslations("Team");
@@ -29,8 +33,11 @@ const OurTeam = () => {
           </div>
          
         </div>
+        <div>
+          <BTM text={t("btmText")} link="forExamplePage"/>
+        </div>
       </div>
-    </div>
+</div>
   );
 };
 
