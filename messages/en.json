@@ -2,6 +2,8 @@
   "Header": {
     "home": "Home",
     "aboutUs": "Samples",
+    "aboutUsTitle": "About us",
+
     "services": "Services",
     "price": "Price",
     "contact": "Contacts"
