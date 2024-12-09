@@ -44,7 +44,7 @@ const Footer = () => {
       <div className="flex flex-col">
 		<h2 className="text-start text-clamp py-3">Find us in:</h2>
 	  <div className="flex flex-row sm:gap-4 md:gap-10 desk:gap-12">
-        <Link href="https://www.facebook.com/devhawksua/" className="rounded-full shadow-custom">
+        <Link href="https://www.facebook.com/devhawksucraine/" className="rounded-full shadow-custom">
           <Image
             src={fb3}
             alt="fb"
