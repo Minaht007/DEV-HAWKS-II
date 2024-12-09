@@ -18,7 +18,7 @@ const BurgerMenu = ({ isOpen, toggleClickBurger, isClose }) => {
             <Link className={linkStyle} href={`/${currentLocation}/mainPage#home`} onClick={isClose} >{t("home")}</Link>
           </li>
           <li>
-            <Link className={linkStyle} href={`/${currentLocation}/mainPage#aboutUs`} onClick={isClose}>
+            <Link className={linkStyle} href={`/${currentLocation}/forExamplePage`} onClick={isClose}>
               {t("aboutUs")}
             </Link>
           </li>
