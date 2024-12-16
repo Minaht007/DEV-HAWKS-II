@@ -44,7 +44,7 @@ const Footer = () => {
       <div className="flex flex-col">
 		<h2 className="text-start text-clamp py-3">Find us in:</h2>
 	  <div className="flex flex-row sm:gap-4 md:gap-10 desk:gap-12">
-        <Link href="https://www.facebook.com/devhawksucraine/" className="rounded-full shadow-custom">
+        <Link href="https://www.facebook.com/devhawksucraine/" target="_blank" className="rounded-full shadow-custom">
           <Image
             src={fb3}
             alt="fb"
@@ -54,7 +54,7 @@ const Footer = () => {
           />
         </Link>
 
-		<Link href="https://www.instagram.com/dev_hawksua/" className="rounded-full shadow-custom"> <Image
+		<Link href="https://www.instagram.com/dev_hawksua/" target="_blank" className="rounded-full shadow-custom"> <Image
           src={instagram}
           alt="instagram"
           width={40}
@@ -63,7 +63,7 @@ const Footer = () => {
         /></Link>
 
        
-        <Link href="https://www.linkedin.com/company/105512886/admin/page-posts/published/" className="rounded-full shadow-custom">
+        <Link href="https://www.linkedin.com/company/105512886/admin/page-posts/published/" target="_blank" className="rounded-full shadow-custom">
           <Image
             src={linkedin}
             alt="linkedin"
@@ -72,7 +72,7 @@ const Footer = () => {
             className={iconStyle}
           />
         </Link>
-        <Link href="https://t.me/Doctor_TAL" className="rounded-full shadow-custom">
+        <Link href="https://t.me/Doctor_TAL" target="_blank" className="rounded-full shadow-custom">
           <Image
             src={telegram2}
             alt="telegram"
