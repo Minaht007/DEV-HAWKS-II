@@ -2,7 +2,7 @@
 import { useState } from "react";
 import Image from "next/image";
 
-import carMaineImg from "../../../public/img/example/carSale/mainPageJpeg.jpg";
+// import carMaineImg from "../../../public/img/example/carSale/mainPageJpeg.jpg";
 import car1 from "../../../public/img/example/carSale/car1.jpg";
 import car2 from "../../../public/img/example/carSale/car2.jpg";
 import car3 from "../../../public/img/example/carSale/car3.jpg";
