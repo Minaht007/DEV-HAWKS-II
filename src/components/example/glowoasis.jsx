@@ -9,10 +9,10 @@ import { useLocale, useTranslations } from "next-intl";
 import Link from "next/link";
 
 const imgStyle =
-  "sm:w-[300px] sm:h-[200px] md:w-[380px] md:h-[340px] desk:w-[600px] desk:h-[500px] sm:my-4  rounded-lg";
+  "sm:w-[300px] sm:h-[200px] md:w-[380px] md:h-[340px] desk:w-[600px] desk:h-[500px]   rounded-lg";
 
   const imgMobStyle =
-  "sm:w-[300px]  md:w-[200px]  md:h-[400px] desk:w-[300px]  desk:h-[600px] sm:my-4 md:text-center desk:text-start rounded-lg text-secondaryBG";
+  "sm:w-[300px]  md:w-[200px]  md:h-[400px] desk:w-[300px]  desk:h-[600px] sm:my-4 md:text-center desk:text-start rounded-lg text-secondaryBG mx-auto";
 
 
 const divContainerStyle =
@@ -42,13 +42,14 @@ const CarShipping = () => {
   const toggleList = () => setIsOpen(!isOpen);
 
   return (
-    <div className="flex flex-wrap justify-around">
+    <div className="flex flex-wrap justify-around w-[90%] mx-auto">
       <div className={divContainerStyle}>
         <Image
           src={glowMainImg}
           alt="Car Anketa"
           width={400}
           height={400}
+          style={{ objectFit: 'contain' }}
           className={imgStyle}
         />
       </div>
@@ -58,6 +59,7 @@ const CarShipping = () => {
           alt="car1"
           width={400}
           height={400}
+          style={{ objectFit: 'contain' }}
           className={imgStyle}
         />
       </div>

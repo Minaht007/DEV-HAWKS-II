@@ -40,7 +40,7 @@ const CarShipping = () => {
   const toggleList = () => setIsOpen(!isOpen);
 
   return (
-    <div className="flex flex-wrap justify-around">
+    <div className="flex flex-wrap justify-around w-[90%] mx-auto">
       <div className={divContainerStyle} >
         <Image
           src={noemonMainImg}
@@ -48,6 +48,7 @@ const CarShipping = () => {
           width={400}
           height={400}
           className={imgStyle}
+          style={{ objectFit: 'contain' }}
         />
       </div>
       <div className={divContainerStyle}>
@@ -57,6 +58,7 @@ const CarShipping = () => {
           width={600}
           height={400}
           className={imgStyle}
+          style={{ objectFit: 'contain' }}
         />
       </div>
       <div className={divContainerStyle}>
@@ -66,6 +68,7 @@ const CarShipping = () => {
           width={400}
           height={400}
           className={imgStyle}
+          style={{ objectFit: 'contain' }}
         />
       </div>
 
