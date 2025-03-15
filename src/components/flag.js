@@ -1,5 +1,6 @@
 import Ukraine from "../../public/img/flags/ukraine.png"
 import English from "../../public/img/flags/britain.png"
+import Deutsch from "../../public/img/flags/germany.png"
 
 export const languageList = [
 	{
@@ -13,5 +14,11 @@ export const languageList = [
 		abbreviation: "en",
 		img: English,
 		title: "English",
+	},
+	{
+		id: 3,
+		abbreviation: "de",
+		img: Deutsch,
+		title: "Deutsch",
 	}
 ];
