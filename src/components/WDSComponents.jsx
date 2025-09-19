@@ -17,10 +17,10 @@ const Article = () => {
 	return (
 		<div className="layout md:my-16">
 			<div>
-				<h1 className={title}>WEB DEVELOPMENT SERVICE</h1>
+				<p className={title}>WEB DEVELOPMENT SERVICE</p>
 			</div>
 			<div>
-				<p className={underTitle}>{t("underTitle")}</p>
+				<h1 className={underTitle}>{t("underTitle")}</h1>
 			</div>
 
 			<div className="flex  justify-between items-center md:mt-16 ">
@@ -31,6 +31,7 @@ const Article = () => {
 					<p className={text} style={{ textAlign: "justify" }}>
 						{t("scriptOne")}
 					</p>
+					<h2 className={text}> {t("scriptOne")} </h2>
 					<p className={text} style={{ textAlign: "justify" }}>
 						{t("scriptTwo")}
 					</p>

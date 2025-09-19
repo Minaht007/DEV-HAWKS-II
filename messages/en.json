@@ -113,10 +113,11 @@
   },
 
   "WDS": {
-    "underTitle": "This article will help you understand better, which application is more suitable for you.",
-    "scriptOne": "Having an online presence, either on a website or web app, is important for any business in today's digital climate. Most business owners would say it's a necessity.",
-    "scriptTwo": "According to many studies, it takes less than a second for viewers to form an opinion about your website. They expect a fast, well-designed site that provides a good user experience. It encourages them to stay longer and could even convince them to do business with your company.",
-    "underTitleTwo": "Web application and website: what is the difference?",
+    "underTitle": "Web development services: creation of websites and web add-ons for business",
+    "scriptOne": "In today's digital world, professional web development is the key to a successful business. Regardless of whether you need a corporate website, an online store or a complex web system, our team will help you implement the idea and bring your business into the online space.",
+    "underTitle_2" : "Why is it important to have a website or a web supplement?",
+    "scriptTwo": "The research shows that traders generate more criticism about the site in less than a second. You will find a quick, easy-to-use and visually appealing web resource that will provide a clear, informative report. In addition, professional development of a website or web supplement directly contributes to the credibility of your brand.",
+    "underTitleTwo": "Website and web app: what's the difference?",
     "scriptThree": " Many people wonder — what is the difference between a website and an application? At first glance, these two concepts are the same, but the differences lie in the internal work with them and the creation of the project itself.",
     "scriptFour": "This is one or more web pages that show the user informational content: articles, videos, pictures, music. As a rule, this data is static and the user cannot interact with it, that is, change anything on the page. Usually, a site is used to demonstrate products, talk about a brand, its history and achievements, publish useful cases and articles. Often, authentication is not required here, which means that all information is available to every user.",
     "scriptFive": "A full-fledged program with advanced functionality. In fact, this is the same site, only with interactive elements that solve several client problems at once. Here he will already be able to interact with the content and carry out various manipulations, within acceptable limits: add information, communicate with other users, order goods, pay for purchases, add or remove products from the basket. Therefore, the important point here is to register yourself as a user, and this is much more common than with websites.",
