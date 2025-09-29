@@ -52,7 +52,7 @@ export default async function LocaleLayout({
 
         {/* Google Analytics скрипты */}
         <Script
-          src={`https://www.googletagmanager.com/gtag/js?id=G-EYR8RK8HKB`}
+          src={`https://www.googletagmanager.com/gtag/js?id=G-D8YXWPF6DS`}
           strategy="afterInteractive"
         />
         <Script id="ga-init" strategy="afterInteractive">
@@ -60,7 +60,7 @@ export default async function LocaleLayout({
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'G-EYR8RK8HKB');
+            gtag('config', 'G-D8YXWPF6DS');
           `}
         </Script>
       </body>
