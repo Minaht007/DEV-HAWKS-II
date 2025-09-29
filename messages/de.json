@@ -243,5 +243,9 @@
     "btmRent": "Preis für Miete",
     "current": "Dollar",
     "currentRent": "Dollar/Monat"
+  },
+
+  "layoutDescription": {
+    "description": "Webentwicklung, Webdesign und E-Commerce-Lösungen für Unternehmen jeder Größe. Wir erstellen professionelle Websites, Online-Shops, Unternehmenswebsites, Landingpages und Automatisierungssysteme. Full-Service-Webentwicklung: Design, Frontend, Backend, SEO-Optimierung und technischer Support."
   }
 }
