@@ -22,13 +22,20 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "DEV-HAWKS",
+  title: "DEV-HAWKS | Website Development & Web Design",
   description:
     "Website development, web design, and e-commerce solutions for businesses of any size. We create professional websites, online stores, corporate websites, landing pages, and automation systems. Full-cycle web development: design, front-end, back-end, SEO optimization, and technical support.",
   keywords:
-    "website development, web design, online store, e-commerce, corporate website, landing page, business website, custom web development, IT services, automation systems, SEO, front-end, back-end, CRM development, mobile-friendly websites",
+    "website development, web design, online store, e-commerce, corporate website, landing page, business website, custom web development, IT services, automation systems, SEO, front-end, back-end, CRM development, mobile-friendly websites," +
+    "разработка сайтов, веб-дизайн, создание интернет-магазинов, корпоративные сайты, лендинг пейдж, бизнес-сайт, IT-услуги, автоматизация процессов, CRM-системы, SEO-оптимизация, продвижение сайтов, мобильные сайты, заказать сайт, поддержка сайтов, веб-студия, веб-разработка," +
+    "розробка сайтів, вебдизайн, створення інтернет-магазинів, корпоративні сайти, лендінг пейдж, бізнес-сайт, IT-послуги, автоматизація бізнесу, CRM-системи, SEO-оптимізація, просування сайтів, мобільні сайти, замовити сайт, підтримка сайтів, веб-студія, веброзробка",
   authors: [{ name: "DEV-HAWKS" }],
   creator: "Telnov Andrey",
+  icons: {
+    icon: "/src/app/favicon.ico", 
+    shortcut: "/favicon.ico",
+    apple: "/apple-touch-icon.png",
+  },
   robots: "index, follow",
 };
 
