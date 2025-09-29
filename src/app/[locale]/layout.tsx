@@ -4,7 +4,7 @@ import "./globals.css";
 
 import Header from "../../components/header";
 import Footer from "../../components/footer";
-import { NextIntlClientProvider } from "next-intl";
+import { NextIntlClientProvider, useTranslations } from "next-intl";
 import { getMessages } from "next-intl/server";
 
 import Script from "next/script";
@@ -22,6 +22,10 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
+
+  // const t = useTranslations("layoutDescription"),
+
+
   title: "DEV-HAWKS | Website Development & Web Design",
   description:
     "Website development, web design, and e-commerce solutions for businesses of any size. We create professional websites, online stores, corporate websites, landing pages, and automation systems. Full-cycle web development: design, front-end, back-end, SEO optimization, and technical support.",
@@ -32,8 +36,8 @@ export const metadata: Metadata = {
   authors: [{ name: "DEV-HAWKS" }],
   creator: "Telnov Andrey",
   icons: {
-    icon: "/src/app/favicon.ico", 
-    shortcut: "/favicon.ico",
+    icon: "../../../public/favicon.ico", 
+    shortcut: "../../../public/favicon.ico",
     apple: "/apple-touch-icon.png",
   },
   robots: "index, follow",
