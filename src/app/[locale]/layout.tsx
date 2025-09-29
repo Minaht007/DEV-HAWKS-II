@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   keywords:
     "website development, web design, online store, e-commerce, corporate website, landing page, business website, custom web development, IT services, automation systems, SEO, front-end, back-end, CRM development, mobile-friendly websites",
   authors: [{ name: "YourCompanyName" }],
-  creator: "YourCompanyName",
+  creator: "Telnov Andrey",
   robots: "index, follow",
 };
 
