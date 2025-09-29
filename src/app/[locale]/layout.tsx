@@ -7,6 +7,9 @@ import Footer from "../../components/footer";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from 'next-intl/server';
 
+import Script from "next/script";
+import AnalyticsTracker from "../../components/AnalyticsTracker";
+
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
   variable: "--font-geist-sans",
@@ -44,6 +47,22 @@ export default async function LocaleLayout({
           {children}
           <Footer />
         </NextIntlClientProvider>
+
+        <AnalyticsTracker />
+
+        {/* Google Analytics скрипты */}
+        <Script
+          src={`https://www.googletagmanager.com/gtag/js?id=G-EYR8RK8HKB`}
+          strategy="afterInteractive"
+        />
+        <Script id="ga-init" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-EYR8RK8HKB');
+          `}
+        </Script>
       </body>
     </html>
   );
