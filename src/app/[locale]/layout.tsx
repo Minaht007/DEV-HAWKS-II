@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     "Website development, web design, and e-commerce solutions for businesses of any size. We create professional websites, online stores, corporate websites, landing pages, and automation systems. Full-cycle web development: design, front-end, back-end, SEO optimization, and technical support.",
   keywords:
     "website development, web design, online store, e-commerce, corporate website, landing page, business website, custom web development, IT services, automation systems, SEO, front-end, back-end, CRM development, mobile-friendly websites",
-  authors: [{ name: "YourCompanyName" }],
+  authors: [{ name: "DEV-HAWKS" }],
   creator: "Telnov Andrey",
   robots: "index, follow",
 };
